@@ -1,0 +1,148 @@
+diff --git a/node_modules/hexo-theme-icarus/include/style/article.styl b/node_modules/hexo-theme-icarus/include/style/article.styl
+index fa8f763..06bc2ea 100644
+--- a/node_modules/hexo-theme-icarus/include/style/article.styl
++++ b/node_modules/hexo-theme-icarus/include/style/article.styl
+@@ -94,6 +94,10 @@ article
+ 
+                 .message-body
+                     border: none
++            a
++                img
++                    margin: auto
++                    display: block
+         
+         .article-tags
+             display: flex
+@@ -196,3 +200,11 @@ a
+             flex-shrink: 1
+             word-wrap: break-word
+             white-space: normal
++
++.article {counter-reset:section}
++.article h2{counter-reset:sub-section}
++.article h3{counter-reset:composite}
++.article h4{counter-reset:detail}
++.article h2:before{content:counter(section) " ";counter-increment:section}
++.article h3:before{content:counter(section) "." counter(sub-section) " ";counter-increment:sub-section}
++.article h4:before{content:counter(section) "." counter(sub-section) "." counter(composite) " ";counter-increment:composite}
+\ No newline at end of file
+diff --git a/node_modules/hexo-theme-icarus/include/style/responsive.styl b/node_modules/hexo-theme-icarus/include/style/responsive.styl
+index ad6be4d..54c46b4 100644
+--- a/node_modules/hexo-theme-icarus/include/style/responsive.styl
++++ b/node_modules/hexo-theme-icarus/include/style/responsive.styl
+@@ -2,11 +2,19 @@
+  *         Responsive Layout
+  * --------------------------------- */
+ +widescreen()
++    .is-3-column .container
++        max-width: $widescreen - $gap
++        width: $widescreen - $gap
++
+     .is-1-column .container, .is-2-column .container
+         max-width: $desktop - 2 * $gap
+         width: $desktop - 2 * $gap
+ 
+ +fullhd()
++    .is-3-column .container
++        max-width: $fullhd - 2 * $gap
++        width: $fullhd - 2 * $gap
++        
+     .is-2-column .container
+         max-width: $widescreen - 2 * $gap
+         width: $widescreen - 2 * $gap
+diff --git a/node_modules/hexo-theme-icarus/include/style/widget.styl b/node_modules/hexo-theme-icarus/include/style/widget.styl
+index b97231f..799a547 100644
+--- a/node_modules/hexo-theme-icarus/include/style/widget.styl
++++ b/node_modules/hexo-theme-icarus/include/style/widget.styl
+@@ -63,3 +63,7 @@
+     .widget.card#toc, #toc-mask
+         &.is-active
+             display: block
++
++#toc
++    max-height: calc(100vh - 22px)
++    overflow-y: scroll
+diff --git a/node_modules/hexo-theme-icarus/layout/common/article.jsx b/node_modules/hexo-theme-icarus/layout/common/article.jsx
+index 7c01d3d..b204f1f 100644
+--- a/node_modules/hexo-theme-icarus/layout/common/article.jsx
++++ b/node_modules/hexo-theme-icarus/layout/common/article.jsx
+@@ -88,15 +88,18 @@ module.exports = class extends Component {
+                     {/* Licensing block */}
+                     {!index && article && article.licenses && Object.keys(article.licenses)
+                         ? <ArticleLicensing.Cacheable page={page} config={config} helper={helper} /> : null}
++                    <hr style="height:1px;margin:1rem 0"/>
++                    <div className="level is-mobile is-flex">
+                     {/* Tags */}
+-                    {!index && page.tags && page.tags.length ? <div class="article-tags is-size-7 mb-4">
+-                        <span class="mr-2">#</span>
+-                        {page.tags.map(tag => {
+-                            return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
+-                        })}
++                    {page.tags && page.tags.length ? <div class="article-tags is-size-7 is-uppercase">
++                        <i class="fas fa-tags has-text-grey"></i>&nbsp;
++                            {page.tags.map((tag, index) => {
++                                return <a class="link-muted" rel="tag" href={url_for(tag.path)}>{tag.name}{index !== page.tags.length-1? ', ':''}</a>;
++                            })}
+                     </div> : null}
+                     {/* "Read more" button */}
+-                    {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
++                    {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}><i class="fas fa-book-reader has-text-grey"></i>&nbsp;&nbsp;{__('article.more')}</a> : null}
++                    </div>
+                     {/* Share button */}
+                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
+                 </article>
+diff --git a/node_modules/hexo-theme-icarus/layout/common/widgets.jsx b/node_modules/hexo-theme-icarus/layout/common/widgets.jsx
+index 0a69ca7..fe36faa 100644
+--- a/node_modules/hexo-theme-icarus/layout/common/widgets.jsx
++++ b/node_modules/hexo-theme-icarus/layout/common/widgets.jsx
+@@ -33,7 +33,7 @@ function getColumnCount(widgets) {
+ function getColumnSizeClass(columnCount) {
+     switch (columnCount) {
+         case 2:
+-            return 'is-4-tablet is-4-desktop is-4-widescreen';
++            return 'is-4-tablet is-4-desktop is-3-widescreen';
+         case 3:
+             return 'is-4-tablet is-4-desktop is-3-widescreen';
+     }
+diff --git a/node_modules/hexo-theme-icarus/layout/layout.jsx b/node_modules/hexo-theme-icarus/layout/layout.jsx
+index 8607b5d..f9e0f84 100644
+--- a/node_modules/hexo-theme-icarus/layout/layout.jsx
++++ b/node_modules/hexo-theme-icarus/layout/layout.jsx
+@@ -16,7 +16,7 @@ module.exports = class extends Component {
+ 
+         return <html lang={language ? language.substr(0, 2) : ''}>
+             <Head site={site} config={config} helper={helper} page={page} />
+-            <body class={`is-${columnCount}-column`}>
++            <body class={`is-3-column`}>    
+                 <Navbar config={config} helper={helper} page={page} />
+                 <section class="section">
+                     <div class="container">
+@@ -26,7 +26,7 @@ module.exports = class extends Component {
+                                 'order-2': true,
+                                 'column-main': true,
+                                 'is-12': columnCount === 1,
+-                                'is-8-tablet is-8-desktop is-8-widescreen': columnCount === 2,
++                                'is-8-tablet is-8-desktop is-9-widescreen': columnCount === 2,
+                                 'is-8-tablet is-8-desktop is-6-widescreen': columnCount === 3
+                             })} dangerouslySetInnerHTML={{ __html: body }}></div>
+                             <Widgets site={site} config={config} helper={helper} page={page} position={'left'} />
+diff --git a/node_modules/hexo-theme-icarus/source/js/main.js b/node_modules/hexo-theme-icarus/source/js/main.js
+index 7f46128..72fe7c6 100644
+--- a/node_modules/hexo-theme-icarus/source/js/main.js
++++ b/node_modules/hexo-theme-icarus/source/js/main.js
+@@ -120,6 +120,7 @@
+ 
+     const $toc = $('#toc');
+     if ($toc.length > 0) {
++        $toc.addClass('column-left is-sticky');
+         const $mask = $('<div>');
+         $mask.attr('id', 'toc-mask');
+ 
+@@ -134,4 +135,7 @@
+         $mask.on('click', toggleToc);
+         $('.navbar-main .catalogue').on('click', toggleToc);
+     }
++
++    $('div.container div.card[data-type=tags]').addClass('is-hidden-mobile');
++    $('div.container div.card[data-type=archives]').addClass('is-hidden-mobile');
+ }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
