@@ -11,21 +11,21 @@ categories: 移动端开发
 
 访问 App Center，注册一个账户
 
-<!--more-->
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_592203_Kb28w5ED_rpJotTj_1627888914%5B1%5D.png)
 
-![MTY4ODg1MDk0ODIwNzAwOA_592203_Kb28w5ED_rpJotTj_1627888914[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_592203_Kb28w5ED_rpJotTj_1627888914%5B1%5D.png)
+<!--more-->
 
 使用 GitHub 创建，点击 Authorize App Center
 
-![MTY4ODg1MDk0ODIwNzAwOA_148227_-PRQbQbvYO1g6pLB_1627888971[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_148227_-PRQbQbvYO1g6pLB_1627888971%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_148227_-PRQbQbvYO1g6pLB_1627888971%5B1%5D.png)
 
 输入密码，然后选择用户名（Choose username）
 
-![MTY4ODg1MDk0ODIwNzAwOA_421944_3vOntH5GPFopIEPI_1627889001[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_421944_3vOntH5GPFopIEPI_1627889001%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_421944_3vOntH5GPFopIEPI_1627889001%5B1%5D.png)
 
 进入之后的界面
 
-![MTY4ODg1MDk0ODIwNzAwOA_213532_2wSj9hGHPf8ZXF0Q_1627889025[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_213532_2wSj9hGHPf8ZXF0Q_1627889025%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_213532_2wSj9hGHPf8ZXF0Q_1627889025%5B1%5D.png)
 
 ## 本地 Code Push 环境配置
 
@@ -50,7 +50,7 @@ appcenter login
 
 appcenter-cli 的 login 命令会打开浏览器，要求用户在浏览器上进行认证，认证完成后会生成一个 access key ，粘贴这个 key 到命令行，完成认证
 
-![MTY4ODg1MDk0ODIwNzAwOA_700630_Rs5WeDvIt-fXdg22_1627889258[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_700630_Rs5WeDvIt-fXdg22_1627889258%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_700630_Rs5WeDvIt-fXdg22_1627889258%5B1%5D.png)
 
 2.2 管理 App
 
@@ -98,7 +98,7 @@ appcenter codepush deployment list --displayKeys -a <ownerName>/<appName>
 当前 App 应用的两个部署的部署密钥
 
 
-![MTY4ODg1MDk0ODIwNzAwOA_276195_Si_8lN9iwAAvJ3y2_1627889423[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_276195_Si_8lN9iwAAvJ3y2_1627889423%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_276195_Si_8lN9iwAAvJ3y2_1627889423%5B1%5D.png)
 
 ## 在项目中集成 Code Push
 
@@ -259,7 +259,7 @@ Error: The uploaded package was not released because it is identical to the cont
 
 4.4 第一次模拟热更新
 
-![MTY4ODg1MDk0ODIwNzAwOA_585521_upEshZccL01iw9XF_1627890445[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_585521_upEshZccL01iw9XF_1627890445%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_585521_upEshZccL01iw9XF_1627890445%5B1%5D.png)
 
 **手机并没有出现热更新提示**
 
@@ -295,7 +295,7 @@ codePush.sync({
 
 4.5 第二次模拟热更新
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_617243_Mk5hLehhk6yGGfj3_1627891154%5B1%5D.jpg" alt="MTY4ODg1MDk0ODIwNzAwOA_617243_Mk5hLehhk6yGGfj3_1627891154[1]" style="zoom:25%;" />
+<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_617243_Mk5hLehhk6yGGfj3_1627891154%5B1%5D.jpg" alt="" style="zoom:25%;" />
 
 **手机上有热更新提示，但是更新未安装成功**
 
@@ -398,15 +398,15 @@ setup() {
 
 之前的页面
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_520468_BXXw9LsmxZIhaxDE_1627892079%5B1%5D.jpg" alt="MTY4ODg1MDk0ODIwNzAwOA_520468_BXXw9LsmxZIhaxDE_1627892079[1]" style="zoom:25%;" />
+<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_520468_BXXw9LsmxZIhaxDE_1627892079%5B1%5D.jpg" alt="" style="zoom:25%;" />
 
 热更新提示
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_47699_Fa_JSeJforI4_QeM_1627892102%5B1%5D.jpg" alt="MTY4ODg1MDk0ODIwNzAwOA_47699_Fa_JSeJforI4_QeM_1627892102[1]" style="zoom:25%;" />
+<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_47699_Fa_JSeJforI4_QeM_1627892102%5B1%5D.jpg" alt="" style="zoom:25%;" />
 
 热更新之后
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_83358_kmWez6IUL_Ek9fHZ_1627892136%5B1%5D.jpg" alt="MTY4ODg1MDk0ODIwNzAwOA_83358_kmWez6IUL_Ek9fHZ_1627892136[1]" style="zoom:25%;" />
+<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_83358_kmWez6IUL_Ek9fHZ_1627892136%5B1%5D.jpg" alt="" style="zoom:25%;" />
 
 Code Push 集成成功 !!!
 

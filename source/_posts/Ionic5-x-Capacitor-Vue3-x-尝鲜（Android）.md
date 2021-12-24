@@ -172,43 +172,43 @@ android.injected.testOnly=false
 
 ![Build](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_346912_e9EAtUZrdWsyQlIF_1627607335%5B1%5D.png)
 
-![选择APK](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_566472_KhM0gPwqdDfcQAB0_1627607326%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_566472_KhM0gPwqdDfcQAB0_1627607326%5B1%5D.png)
 
 如果之前有编译成 APK 的话，就直接选择 Choose existing key
 
 如果没有编译成 APK 的， 那就选择 Create new key
 
-![选择Create new key](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_587951_Ao_6V_E7lt3yd6gS_1627607388%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_587951_Ao_6V_E7lt3yd6gS_1627607388%5B1%5D.png)
 
 选择新的 key 的存放路径，点击 OK 继续
 
-![选择key存放路径](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_547362_WdAqEfn26napiJ4N_1627607433%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_547362_WdAqEfn26napiJ4N_1627607433%5B1%5D.png)
 
 填上密码，其中 First and Last Name 填一下，其他的可不填。
 
 点击 OK 继续下一步
 
-![填写 New Key Store](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_638872_JyoBXkT3kLhkbOR9_1627607502%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_638872_JyoBXkT3kLhkbOR9_1627607502%5B1%5D.png)
 
 
 
-![填写 Comfirm](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_98758__1Z0mbDbmQEenRk9_1627607533%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_98758__1Z0mbDbmQEenRk9_1627607533%5B1%5D.png)
 
 点击 Next 继续下一步（**这一步不能够记住密码，否则可能会导致之后 build 报错**）
 
-![生成APK](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_545387_QjaM9mwnLTJ5UN5l_1627607595%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_545387_QjaM9mwnLTJ5UN5l_1627607595%5B1%5D.png)
 
 点击 Finish，最终生成的 APK 文件就在下图所示的路径中
 
-![点击Finish](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_70311_7HoTSeRj7AW_clU6_1627607627%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_70311_7HoTSeRj7AW_clU6_1627607627%5B1%5D.png)
 
 打包成功！！！
 
-![打包成功](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_515088_wTW1pYLYzTnXpBlA_1627607683%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_515088_wTW1pYLYzTnXpBlA_1627607683%5B1%5D.png)
 
 
 
-![生成的APK](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_324088_BVj9ozYSZCFBQLDH_1627607700%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_324088_BVj9ozYSZCFBQLDH_1627607700%5B1%5D.png)
 
 **注意：再次打包时需要将之前打包生成的 release 或 debug 文件夹删除，才能看到效果**
 

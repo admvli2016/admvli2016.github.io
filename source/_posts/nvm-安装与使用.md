@@ -163,7 +163,7 @@ nvm help
 
 安装失败
 
-![MTY4ODg1MDk0ODIwNzAwOA_110930_2H4Zn8oeNqBPEm0M_1634724494[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_110930_2H4Zn8oeNqBPEm0M_1634724494%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_110930_2H4Zn8oeNqBPEm0M_1634724494%5B1%5D.png)
 
 [MacOs M1安装Homebrew 在国内最简单方法_YD-10-NG的博客-CSDN博客](https://blog.csdn.net/sinat_38184748/article/details/114115441)
 
@@ -176,7 +176,7 @@ nvm help
 
 安装成功
 
-![MTY4ODg1MDk0ODIwNzAwOA_684570_d49PN2YGVTay--PF_1634725347[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_684570_d49PN2YGVTay--PF_1634725347%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_684570_d49PN2YGVTay--PF_1634725347%5B1%5D.png)
 
 2.2 安装 nvm
 
@@ -186,7 +186,7 @@ brew install nvm
 ```
 安装成功
 
-![MTY4ODg1MDk0ODIwNzAwOA_986409_Rce_MckZCM_3uOeN_1634797297[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_986409_Rce_MckZCM_3uOeN_1634797297%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_986409_Rce_MckZCM_3uOeN_1634797297%5B1%5D.png)
 
 2.3 配置可在 shell 中使用 nvm 命令
 
@@ -241,7 +241,7 @@ node -v
 npm -v
 ```
 
-![MTY4ODg1MDk0ODIwNzAwOA_174170_lE6IMXhcnr4CM9HT_1634798562[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_174170_lE6IMXhcnr4CM9HT_1634798562%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_174170_lE6IMXhcnr4CM9HT_1634798562%5B1%5D.png)
 
 还可以配置在不同 node 版本下全局安装的依赖始终可用，参照下述博文：
 

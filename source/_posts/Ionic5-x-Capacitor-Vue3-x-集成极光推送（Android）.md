@@ -102,11 +102,11 @@ ionic cap open android
 可在极光开发者服务后台 > 应用管理 > 应用设置 > 应用信息中查看 AppKey
 
 
-![image-20211211204733833](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211204733833.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211204733833.png)
 
-![image-20211211204839617](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211204839617.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211204839617.png)
 
-![image-20211211205701362](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211205701362.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211211205701362.png)
 
 不要忘记在 gradle.properties 文件中添加：
 
@@ -207,19 +207,19 @@ export default defineComponent({
 
 设置平台、标题、内容、发送时间
 
-![MTY4ODg1MDk0ODIwNzAwOA_474570_vbjkHqJ0bCwsnccP_1627541625[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_474570_vbjkHqJ0bCwsnccP_1627541625%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_474570_vbjkHqJ0bCwsnccP_1627541625%5B1%5D.png)
 
 5.2 选择发送给哪些人
 
-![MTY4ODg1MDk0ODIwNzAwOA_928184_JskED6hOUhlZAiP7_1627541642[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_928184_JskED6hOUhlZAiP7_1627541642%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_928184_JskED6hOUhlZAiP7_1627541642%5B1%5D.png)
 
 5.3 发送推送消息
 
-![MTY4ODg1MDk0ODIwNzAwOA_179806_MEQpgv0lOPWK5XxY_1627541672[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_179806_MEQpgv0lOPWK5XxY_1627541672%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_179806_MEQpgv0lOPWK5XxY_1627541672%5B1%5D.png)
 
 5.4 确认发送
 
-![MTY4ODg1MDk0ODIwNzAwOA_991448_zZ7z_ezmjqdGoir6_1627541686[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_991448_zZ7z_ezmjqdGoir6_1627541686%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_991448_zZ7z_ezmjqdGoir6_1627541686%5B1%5D.png)
 
 5.5 在 App 上查看是否收到推送通知
 
@@ -231,7 +231,7 @@ export default defineComponent({
 
 在安装过程中，Android Studio 控制台报错：
 
-![MTY4ODg1MDk0ODIwNzAwOA_302272_cB5Lei1GvnYKLkkN_1627541317[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_302272_cB5Lei1GvnYKLkkN_1627541317%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_302272_cB5Lei1GvnYKLkkN_1627541317%5B1%5D.png)
 
 原因是没有给 App 授予通知权限（**记住一定要给 App 授予通知权限**）
 
@@ -239,7 +239,7 @@ export default defineComponent({
 
 极光后台报错提示如下：
 
-![MTY4ODg1MDk0ODIwNzAwOA_937395_uAOdjUiwaQt1fl2N_1627541369[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_937395_uAOdjUiwaQt1fl2N_1627541369%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_937395_uAOdjUiwaQt1fl2N_1627541369%5B1%5D.png)
 
 可能是因为此时设置的设备别名（alias）有问题，将其改为自己的用户ID 190395486111268864 
 
@@ -255,7 +255,7 @@ document.addEventListener('deviceready', () => {
 
 如下图所示，极光推送集成成功！！！ 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_645541_Z-Zt8_OJbbneR7Ym_1627541459%5B1%5D.jpg" alt="MTY4ODg1MDk0ODIwNzAwOA_645541_Z-Zt8_OJbbneR7Ym_1627541459[1]" style="zoom: 25%;" />
+<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_645541_Z-Zt8_OJbbneR7Ym_1627541459%5B1%5D.jpg" alt="" style="zoom: 25%;" />
 
 ## 测试 App(Android) 处于不同状态时的推送机制
 
