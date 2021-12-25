@@ -315,7 +315,7 @@ appcenter codepush promote -a <ownerName>/MyApp -s Staging -d Production
 appcenter codepush promote -s Staging -d Production
 ```
 
-![MTY4ODg1MDk0ODIwNzAwOA_28862_HUniZYy7LQOsH7nb_1634179171[1]](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_28862_HUniZYy7LQOsH7nb_1634179171%5B1%5D.png)
+![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_28862_HUniZYy7LQOsH7nb_1634179171%5B1%5D.png)
 
 **成功发布!!!**
 
