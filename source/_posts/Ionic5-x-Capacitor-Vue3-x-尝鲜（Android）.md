@@ -5,7 +5,7 @@ tags: [Ionic5.x,Capacitor,Vue3.x,Android]
 categories: 移动端开发
 ---
 
-发现 ionic 最新版本支持了  Vue3.x，于是赶紧下载来尝尝鲜!
+发现 ionic 最新版本支持了  Vue3.x，于是赶紧来尝尝鲜!
 
 **环境和版本**
 

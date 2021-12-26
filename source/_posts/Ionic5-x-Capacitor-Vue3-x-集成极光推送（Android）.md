@@ -5,10 +5,6 @@ tags: [Ionic5.x,Capacitor,Vue3.x,Android,极光推送]
 categories: 移动端开发
 ---
 
-参考博文：
-
-[ionic快速集成极光推送 · dicallc/ionic3_angular4_JD Wiki](https://github.com/dicallc/ionic3_angular4_JD/wiki/ionic快速集成极光推送)
-
 ## 安装  cordova-plugin-jpush-capacitor
 
 ```shell
@@ -287,3 +283,10 @@ document.addEventListener('deviceready', () => {
 <meta-data android:name="JPUSH_APPKEY" android:value="AppKey"/>
 ```
 
+
+
+<hr />
+
+参考博文：
+
+[ionic快速集成极光推送 · dicallc/ionic3_angular4_JD Wiki](https://github.com/dicallc/ionic3_angular4_JD/wiki/ionic快速集成极光推送)

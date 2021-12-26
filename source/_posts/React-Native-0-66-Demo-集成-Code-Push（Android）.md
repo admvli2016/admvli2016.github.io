@@ -6,14 +6,6 @@ categories: 移动端开发
 typora-copy-images-to: upload
 ---
 
-[使用 CodePush 实时更新您的应用程序 - Visual Studio App Center  微软文档](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/)
-
-[React Native Client SDK 入门 - Visual Studio App Center  微软文档](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/rn-get-started)
-
-[Ionic5.x+Capacitor+Vue3.x 集成 Code Push（Android） - Admvli2016's Blog](https://admvli2016.github.io/2021/12/12/Ionic5-x-Capacitor-Vue3-x-集成-Code-Push（Android）/)
-
-参照上述博文，集成步骤如下
-
 ## 安装 App Center CLI
 
 ```shell
@@ -347,4 +339,18 @@ appcenter codepush promote -s Staging -d Production
 <img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_569130_yzGJtTA1KvqBTQz2_1634179281%5B1%5D.jpg" style="zoom:25%;" />
 
 集成 Code Push 成功 !!!
+
+
+
+<hr />
+
+参考博文：
+
+[使用 CodePush 实时更新您的应用程序 - Visual Studio App Center  微软文档](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/)
+
+[React Native Client SDK 入门 - Visual Studio App Center  微软文档](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/rn-get-started)
+
+[Ionic5.x+Capacitor+Vue3.x 集成 Code Push（Android） - Admvli2016's Blog](https://admvli2016.github.io/2021/12/12/Ionic5-x-Capacitor-Vue3-x-集成-Code-Push（Android）/)
+
+
 

@@ -1441,6 +1441,8 @@ Route 提供的属性，可以被传递给所有的屏幕。包含有关当前 r
 
 
 
+<hr />
+
 参考博文：
 
 [React Navigation 5.x详解 - SegmentFault 思否](https://segmentfault.com/a/1190000038346668)

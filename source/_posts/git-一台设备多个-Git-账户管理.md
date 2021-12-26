@@ -19,12 +19,6 @@ git.code.tencent.com (腾讯工蜂)
 
 <!--more-->
 
-参考博文：
-
-[一台电脑管理多个Git账户和SSH KEY  霖溦之境](https://kukumalucn.github.io/blog/2018/08/02/一台电脑管理多个Git账户和SSH-KEY/)
-
-[同一客户端下使用多个 Git 账号 - 掘金](https://juejin.cn/post/6844903902916132878)
-
 ## git 多个 SSH key 管理
 
 1.1 创建 SSH key
@@ -198,3 +192,14 @@ git config --list
 ![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223183103960.png)
 
 之前取消了 git 全局配置，只要将其恢复， hexo 就可以正常部署了。
+
+
+
+<hr />
+
+参考博文：
+
+[一台电脑管理多个Git账户和SSH KEY  霖溦之境](https://kukumalucn.github.io/blog/2018/08/02/一台电脑管理多个Git账户和SSH-KEY/)
+
+[同一客户端下使用多个 Git 账号 - 掘金](https://juejin.cn/post/6844903902916132878)
+
