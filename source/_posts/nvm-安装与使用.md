@@ -3,6 +3,7 @@ title: nvm 安装与使用
 date: 2021-12-08 22:59:30
 tags: nvm
 categories: 前端工程化
+typora-copy-images-to: upload
 ---
 
 ## nvm 安装（Windows）
@@ -55,6 +56,14 @@ node -v
 # 查看 npm 版本
 npm -v
 ```
+
+**Tips**: 若 nvm use xxx，出现下面的报错：
+
+![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16456703304112.png)
+
+exit status 1: You do not have sufficient privilege to perform this operation.
+
+此时需要用管理员身份打开 cmd 命令行工具，再执行 nvm use xxx。
 
 1.10 设置 npm 全局依赖在各 node 版本之间共享（安装全局依赖使用 `npm i xxx -g`）
 
@@ -142,6 +151,23 @@ nvm use [version] [arch]
 nvm version  
 # 帮助
 nvm help  
+```
+
+1.14 补充
+
+（1）配置完成之后，若使用 npm 下载依赖不成功，可通过下列命令检查 npm 是否有代理配置。
+
+```shell
+npm config list
+```
+
+![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16480043084936.png)
+
+确保 `https-proxy`、`proxy` 为空。否则可通过下列命令进行设置：
+
+```
+npm config set proxy null
+npm config set https-proxy null
 ```
 
 参考博文：
