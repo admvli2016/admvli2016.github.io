@@ -202,14 +202,17 @@ git push -u origin xxx
 # 1, 拉取远程仓库代码
 git clone git@git.code.tencent.com:sgc-ins-os/ui-app.git
 
-# 2, 创建并切换到 sg8k 分支
+# 2, 在 VsCode 中可通过 Git Graph 等插件找到从当前分支切出 sg8k 分支的那一次提交的 commitId；回退到到那一次提交；这样做的主要目的是为了避免产生新的合并记录。
+git reset --hard xxx 
+
+# 3, 创建并切换到 sg8k 分支
 # git branch sg8k && git checkout sg8k
 git checkout -b sg8k
 
-# 3, 将远程 sg8k 分支设为本地 sg8k 分支的上游分支
+# 4, 将远程 sg8k 分支设为本地 sg8k 分支的上游分支
 git branch --set-upstream-to=origin/sg8k sg8k
 
-# 4, 拉取代码
+# 5, 拉取代码
 git pull
 ```
 
@@ -312,7 +315,7 @@ git stash pop
 9.1 打上 tag
 
 ```shell
-# 打上 tag 流程
+# 打 tag 流程分析
 git add *
 git commit -am "xxx"
 
@@ -344,6 +347,20 @@ git push origin v1.1.0
 # 移除 tag
 git tag -d v1.1.x # 删除本地 tag
 git push origin :refs/tags/v1.1.x  # 删除远程 tag
+```
+
+9.3 具体的打 tag 流程
+
+```shell
+# 提交修改的内容
+git add *
+git commit -am "xxx"
+git pull
+git push
+
+# 打 tag，并将其推送至远程仓库
+git tag v1.5.8.1
+git push origin v1.5.8.1
 ```
 
 参考博文：
