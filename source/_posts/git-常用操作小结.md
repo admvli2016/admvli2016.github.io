@@ -58,28 +58,28 @@ cat ~/.ssh/id_rsa.pub
 - GitHub 中配置 SSH
 
 
-![Github](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_672166_bNPnkfg9Vd3lKZRf_1632469789.gif)
+![Github](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_672166_bNPnkfg9Vd3lKZRf_1632469789.gif)
           
 
 
 - Gitee 中配置 SSH
 
 
-![Gitee](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_614336_x95KDOip3_2N3UQ__1632469804.gif)
+![Gitee](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_614336_x95KDOip3_2N3UQ__1632469804.gif)
 
 
 
 - GitLab 中配置 SSH
 
 
-![GitLab](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_474104_QeOu_A3Uw5JvFfBH_1632469833.gif)
+![GitLab](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_474104_QeOu_A3Uw5JvFfBH_1632469833.gif)
 
 
 
 - 腾讯工蜂中配置 SSH
 
 
-![腾讯工蜂](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_424484_8fmD2tcHxpek2Mim_1632469847.gif)           
+![腾讯工蜂](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_424484_8fmD2tcHxpek2Mim_1632469847.gif)           
 
 
 

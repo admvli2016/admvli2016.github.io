@@ -155,7 +155,7 @@ npm start
 
 可以看到嵌进去的网页   [ins.shenguyun.com/...](http://ins.shenguyun.com/)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_491831_a3bwkn-J7qFGeBi-_1639757803%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_491831_a3bwkn-J7qFGeBi-_1639757803%5B1%5D.png)
 
 ## 将该项目打包成桌面端应用
 
@@ -180,7 +180,7 @@ npm install --save-dev electron-builder@22.10.5
 
 运行 `node_modules/.bin/electron-builder --version`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_968198_ifuS-05K9EcdjNb0_1639758245%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_968198_ifuS-05K9EcdjNb0_1639758245%5B1%5D.png)
 
 说明安装 `electron-builder` 成功
 
@@ -196,7 +196,7 @@ node_modules/.bin/electron-builder -w nsis
 
 5.3 打包最终生成的 `exe` 文件在当前项目的 dist 文件夹下
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_608165_0-CXuVeJSxWYjB62_1639758302%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_608165_0-CXuVeJSxWYjB62_1639758302%5B1%5D.png)
 
 ## 设置窗口图标以及桌面快捷方式图标
 

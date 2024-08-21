@@ -19,7 +19,7 @@ appcenter login
 
 <!-- more -->
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_855829_BF7jJ-J4YkgpOzjv_1634870369%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_855829_BF7jJ-J4YkgpOzjv_1634870369%5B1%5D.png)
 
 
 
@@ -34,7 +34,7 @@ appcenter login
 appcenter apps list
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_737522_z3SQ3WC9ls_4gOiX_1634870627%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_737522_z3SQ3WC9ls_4gOiX_1634870627%5B1%5D.png)
 
 ```shell
 # 查看当前操作的应用
@@ -50,7 +50,7 @@ appcenter codepush deployment list --displayKeys
 
 当前 React Native App Demo 应用的两个部署的部署密钥
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_446224_qHrrGdDwflifUvWE_1634871028%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_446224_qHrrGdDwflifUvWE_1634871028%5B1%5D.png)
 
 
 
@@ -94,7 +94,7 @@ return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 return [CodePush bundleURL];
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_113716_aJd7Z5WYICZ_fnLr_1634872486%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_113716_aJd7Z5WYICZ_fnLr_1634872486%5B1%5D.png)
 
 （4）将部署密钥添加到 `Info.plist` 文件中
 
@@ -108,7 +108,7 @@ return [CodePush bundleURL];
 <string>sKXbaBk46P7ito0QKuWKDa4r6B8aONFQccL8_</string>
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_9999_jD-YcdXyspWue2KE_1634881898%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_9999_jD-YcdXyspWue2KE_1634881898%5B1%5D.png)
 
 
 
@@ -135,7 +135,7 @@ return [CodePush bundleURL];
 </plist>
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_441536_hPUJi7XatwUZ-syQ_1634873953%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_441536_hPUJi7XatwUZ-syQ_1634873953%5B1%5D.png)
 
 
 
@@ -155,17 +155,17 @@ return [CodePush bundleURL];
 
 （2）如图所示，选中 `Info` 选项卡
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_284131_7Bzd8sKP0HkGBYG7_1634881844%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_284131_7Bzd8sKP0HkGBYG7_1634881844%5B1%5D.png)
 
 （3）如图所示，点击 `Configurations` 部分的 `+` 按钮，然后选择 `Duplicate "Release" `
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_165523_7LOHypKz0H5vAAkC_1634882114%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_165523_7LOHypKz0H5vAAkC_1634882114%5B1%5D.png)
 
 （4）将新出现的配置项命名为 `Staging`
 
 （5）然后切换到 `Build Settings` 选项卡，点击工具栏上的 `+ ` 按钮，选择 `Add User-Defined Setting`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_220172_9Q8-sdNHOilZZq5b_1634882468%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_220172_9Q8-sdNHOilZZq5b_1634882468%5B1%5D.png)
 
 将新出现的配置项命名为 `MULTI_DEPLOYMENT_CONFIG`，然后给其设置值。
 
@@ -173,11 +173,11 @@ return [CodePush bundleURL];
 
 `Staging` 设置为 `$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_137554_oxjlIjDXz8JKINAk_1634882765%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_137554_oxjlIjDXz8JKINAk_1634882765%5B1%5D.png)
 
 配置结果如下图所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_709979_q1rqOZ0MIMVPRKKU_1634882877%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_709979_q1rqOZ0MIMVPRKKU_1634882877%5B1%5D.png)
 
 （6）再次点击工具栏上面的 `+` 按钮，选择 `Add User-Defined Setting`
 
@@ -187,7 +187,7 @@ return [CodePush bundleURL];
 
 `Staging` 设置为 `pnXIXQ4NPcCT3YOAm_a05xp5u8oJbdWtK4JHH`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_917097_Tru3l-kd7GTZRYK6_1634883391%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_917097_Tru3l-kd7GTZRYK6_1634883391%5B1%5D.png)
 
 （7）打开 `Info.plist` 文件，将 `CodePushDeploymentKey` 值改为 `$(CODEPUSH_KEY)`
 
@@ -199,7 +199,7 @@ return [CodePush bundleURL];
 <string>$(CODEPUSH_KEY)</string>
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_597334_azmf74hk90BJE7Hn_1634883587%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_597334_azmf74hk90BJE7Hn_1634883587%5B1%5D.png)
 
 
 
@@ -277,7 +277,7 @@ npx react-native run-ios --configuration Release
 
 打包应用，尝试将应用安装到模拟器时报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
 
 Google 了一下
 
@@ -291,7 +291,7 @@ Google 了一下
 
 还是报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_745583_8n1BCtsx4oo-uxe1_1634885895%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_745583_8n1BCtsx4oo-uxe1_1634885895%5B1%5D.png)
 
 <hr/>
 
@@ -299,7 +299,7 @@ Google 了一下
 
 还是报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
 
 <hr />
 
@@ -336,17 +336,17 @@ sudo xcrun simctl shutdown all && sudo xcrun simctl erase all
 
 可能是在配置 ”release scheme” 时将下拉的 `Build Configuration` 设置为了 `Release` 的缘故，将其改为 `Debug`，再次尝试。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_74303_GojiDobvCSikSo1o_1634817521%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_74303_GojiDobvCSikSo1o_1634817521%5B1%5D.png)
 
 还是报错。没有其他办法了，暂时放弃，使用 `Xcode` 来进行应用打包。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_252333_MYBA5GGzbWcyYeTX_1634885059%5B1%5D.png)
 
 [React Native 0.66 Demo 集成 Code Push（Android） - Admvli2016's Blog](https://admvli2016.github.io/2021/12/24/React-Native-0-66-Demo-集成-Code-Push（Android）/)
 
 参照上述博文中的 5.5、5.6 步骤，打包成功！
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_978554_28sdVuVxnte2KHH0_1634890606%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_978554_28sdVuVxnte2KHH0_1634890606%5B1%5D.png)
 
 然后参照 5.7 内测分发步骤，将打包好的应用安装到手机上。
 
@@ -361,7 +361,7 @@ appcenter codepush release-react -m --description "第一次热更新"
 appcenter codepush promote -s Staging -d Production
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_686270_8l9Lov5A69pXH9rW_1634894390%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_686270_8l9Lov5A69pXH9rW_1634894390%5B1%5D.png)
 
 发布成功!!!
 
@@ -403,11 +403,11 @@ appcenter codepush promote -s Staging -d Production
 
 在手机上再次点击“检查更新”按钮 ，可以看到有更新弹窗
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_741644_do3lQHgxaCDFmkI9_1634897246%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_741644_do3lQHgxaCDFmkI9_1634897246%5B1%5D.png" style="zoom:25%;" />
 
 点击 Continue 完成热更新之后，可以看到按钮居中了。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_707603_uxjWfDGP-MHgedyD_1634897318%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_707603_uxjWfDGP-MHgedyD_1634897318%5B1%5D.png" style="zoom:25%;" />
 
 
 

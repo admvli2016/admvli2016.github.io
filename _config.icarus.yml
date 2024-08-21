@@ -168,7 +168,7 @@ widgets:
         # Author's current location
         location: ShenZhen, China
         # URL or path to the avatar image
-        avatar: 'https://gitee.com/admvli2016/pictures/raw/master/img/微信图片_20211205223721.jpg'
+        avatar: 'https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/微信图片_20211205223721.jpg'
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar

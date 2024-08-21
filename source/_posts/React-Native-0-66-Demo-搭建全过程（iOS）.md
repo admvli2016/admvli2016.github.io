@@ -54,7 +54,7 @@ CocoaPods    未安装
 
 安装失败。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_110930_2H4Zn8oeNqBPEm0M_1634724494%5B2%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_110930_2H4Zn8oeNqBPEm0M_1634724494%5B2%5D.png)
 
 <hr/>
 
@@ -69,7 +69,7 @@ CocoaPods    未安装
 
 安装成功。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_684570_d49PN2YGVTay--PF_1634725347%5B2%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_684570_d49PN2YGVTay--PF_1634725347%5B2%5D.png)
 
 
 
@@ -81,7 +81,7 @@ brew install watchman
 
 安装失败，报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_624944_tpyXdOWG6r_nZkZB_1634725875%5B2%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_624944_tpyXdOWG6r_nZkZB_1634725875%5B2%5D.png)
 
 按照提示，尝试安装 python@3.9
 
@@ -91,13 +91,13 @@ brew install --build-from-source python@3.9
 
 安装完成，再次运行 `brew install watchman`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_317438_Pvc1-SWA4b_Qn3D0_1634787753%5B2%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_317438_Pvc1-SWA4b_Qn3D0_1634787753%5B2%5D.png)
 
 安装成功！
 
 `brew info watchman` 查看 `Homebrew` 安装的 watchman 详细信息。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_39027_MlT8_CgJZvj_S5eA_1634795206%5B2%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_39027_MlT8_CgJZvj_S5eA_1634795206%5B2%5D.png)
 
 ```shell
 # 验证是否安装成功
@@ -112,13 +112,13 @@ watchman --help
 brew install cocoapods
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_103791_nybSG77OZ9M-Qcrr_1634795644%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_103791_nybSG77OZ9M-Qcrr_1634795644%5B1%5D.png)
 
 安装成功！
 
 `brew info cocoapods` 查看 `Homebrew` 安装的 `cocoapods` 详细信息
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_196360_25HDZxTQByhU8KsZ_1634795727%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_196360_25HDZxTQByhU8KsZ_1634795727%5B1%5D.png)
 
 
 
@@ -150,7 +150,7 @@ npx react-native init MyReactNativeDemo --template react-native-template-typescr
 
 创建 React Native 项目失败，报错:  Unexpected token {
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_275783__WmBZPIXQh1RmqeM_1634806627%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_275783__WmBZPIXQh1RmqeM_1634806627%5B1%5D.png)
 
 估计是因为 node 的版本问题，切换到 `v12.22.0`。
 
@@ -158,11 +158,11 @@ npx react-native init MyReactNativeDemo --template react-native-template-typescr
 
 卡在 `CocoaPods` 安装依赖，需要 `VPN`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_333049_pnwQtcAmgDTUDA5S_1634807293%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_333049_pnwQtcAmgDTUDA5S_1634807293%5B1%5D.png)
 
 `CocoaPods` 安装依赖完成
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_245866_my-80B6oO7BS2NwV_1634807922%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_245866_my-80B6oO7BS2NwV_1634807922%5B1%5D.png)
 
 
 
@@ -193,13 +193,13 @@ npx react-native run-ios --simulator "iPhone 4s"
 
 文件有修改，则需要再次运行 `yarn ios` 命令完成原生部分的编译。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404142713104.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404142713104.png)
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_765539_947CzkuavglSPw6Z_1634808601[1].png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_765539_947CzkuavglSPw6Z_1634808601[1].png" style="zoom:25%;" />
 
 初次运行，启动时间较长，请耐心等待。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_502098_Qm8Cd65IDdfILhOP_1634812088%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_502098_Qm8Cd65IDdfILhOP_1634812088%5B1%5D.png" style="zoom:25%;" />
 
 ### 运行项目（真机）
 
@@ -215,17 +215,17 @@ npx react-native run-ios --simulator "iPhone 4s"
 
 往 Destination。从列表中查找并选择设备，将其注册为开发设备。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_973097_4hN79CxZBG_hxPGs_1634974249%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_973097_4hN79CxZBG_hxPGs_1634974249%5B1%5D.png)
 
 （4）配置代码签名
 
 如图所示，点击 `MyReactNativeDemo`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_594888_RSj5c2ujmea5oVvw_1634814717%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_594888_RSj5c2ujmea5oVvw_1634814717%5B1%5D.png)
 
 编辑 General 目录，将 `Bundle Identifier` 改为 `com.xxxxxxx.xxxxxx`，并进行以下更改。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640415176187.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640415176187.png)
 
 （5）编译并运行应用
 
@@ -262,7 +262,7 @@ User Info: {
 }
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_475154_0Qt9jjlST8JU91s4_1634975637%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_475154_0Qt9jjlST8JU91s4_1634975637%5B1%5D.png)
 
 可能是自己点击手机 `APP` 点早了，重试一次。
 
@@ -294,7 +294,7 @@ User Info: {
 
 生成之后，再在 `Xcode` 上面进行配置。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404198513622.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404198513622.png)
 
 再次尝试真机联调（开发环境），安装到手机上成功！
 
@@ -306,13 +306,13 @@ User Info: {
 
 （1）使用 VS Code 打开 App.js 并进行修改
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_856529_G6z9AwQIjOS2ZPPV_1634812418%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_856529_G6z9AwQIjOS2ZPPV_1634812418%5B1%5D.png)
 
 （2）在 VS Code 中按 Ctrl + S 保存，就可以看到最新的修改结果。
 
 修改结果：
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_753314_lQbFpjIXrFxXQi5c_1634812438%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_753314_lQbFpjIXrFxXQi5c_1634812438%5B1%5D.png" style="zoom:25%;" />
 
 
 
@@ -337,21 +337,21 @@ User Info: {
 ifconfig
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_177186_3vwIXyWfAq8Urvll_1635143874%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_177186_3vwIXyWfAq8Urvll_1635143874%5B1%5D.png)
 
 断开 iMac 网线，然后连接 wifi
 
 [苹果电脑如何连接网络wifi-百度经验](https://jingyan.baidu.com/article/948f592432c901990ef5f943.html)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_863411_MT736lWYk2N2hcjA_1635143838%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_863411_MT736lWYk2N2hcjA_1635143838%5B1%5D.png)
 
 发现在打开的 Packager 页面中按 d 唤出开发菜单，手机并没有反应；但是摇一摇调试设备却可以打开开发菜单。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_181541_V7rp_IUj2mQQwOdV_1635144249%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_181541_V7rp_IUj2mQQwOdV_1635144249%5B1%5D.png" style="zoom:25%;" />
 
 点击 `Debug with Chrome` 时，出现了如下的报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404189902782.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404189902782.png)
 
 猜测可能是 `Xcode` 缓存的原因，因为我点击 Run 的时候还没有拔网线。
 
@@ -359,7 +359,7 @@ ifconfig
 
 它将会自动在 Chrome 浏览器中新开一个标签页，内容如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_992939_OwuNzeCBKW84H6fI_1635144581%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_992939_OwuNzeCBKW84H6fI_1635144581%5B1%5D.png)
 
 如此同时，手机上的 `App` 将会重新加载页面并刷新。
 
@@ -373,7 +373,7 @@ ifconfig
 
 如图所示点击 `MyReactNativeDemo`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_594888_RSj5c2ujmea5oVvw_1634814717%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_594888_RSj5c2ujmea5oVvw_1634814717%5B1%5D.png)
 
 ### 编辑 General 目录
 
@@ -381,7 +381,7 @@ ifconfig
 
 并进行以下更改
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640415176187.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640415176187.png)
 
 
 
@@ -391,15 +391,15 @@ ifconfig
 
 并进行以下更改
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404199511722.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404199511722.png)
 
 添加 `Background Modes`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_689204_eNBcoju4gB4Yza4U_1634815925%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_689204_eNBcoju4gB4Yza4U_1634815925%5B1%5D.png)
 
 添加 `Push Notifications`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_331913_F4Op4LxAMtM7_186_1634816033%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_331913_F4Op4LxAMtM7_186_1634816033%5B1%5D.png)
 
 
 
@@ -407,7 +407,7 @@ ifconfig
 
 将 `Localization native development region` 值改为 `China`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_408302_V94k1Yr0aQHOjTzW_1634816204%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_408302_V94k1Yr0aQHOjTzW_1634816204%5B1%5D.png)
 
 将  `App Transport Security Settings > Exception Domains` 下的 `localhost` 移除
 
@@ -417,7 +417,7 @@ ifconfig
 
 将 `ProductName` 值改为 `因思云`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_837601_lmbtf4CEfdx1FPV3_1634816350%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_837601_lmbtf4CEfdx1FPV3_1634816350%5B1%5D.png)
 
 
 
@@ -425,7 +425,7 @@ ifconfig
 
 配置 `App` 使用 `Release` scheme 编译，前往 `Product > Scheme > Edit Scheme`。选择侧边栏的 Run 标签，然后设置下拉的 `Build Configuration` 为 `Release`。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_74303_GojiDobvCSikSo1o_1634817521%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_74303_GojiDobvCSikSo1o_1634817521%5B1%5D.png)
 
 
 
@@ -433,7 +433,7 @@ ifconfig
 
 从菜单栏选择 `Product > Build` 编译发布 `App`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640420516809.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640420516809.png)
 
 另外还可以使用 React Native CLI  发布，执行以下命令
 
@@ -455,33 +455,33 @@ npx react-native run-ios --configuration Release
 
 （1）找到 `项目名称.xcodeproj` 或者 `项目名称.xcworkspace` 文件，使用 `Xcode` 打开
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_475214_elxMAUxG4t5_hwUL_1628585941%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_475214_elxMAUxG4t5_hwUL_1628585941%5B1%5D.png)
 
 （2）选择 `Archive`
 
 > 确保此时 `Signing & Capabilities > Signing（Release）> Provisioning Profile` 选择的是 `Ad Hoc`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404220184510.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404220184510.png)
 
 （3）成功后点击 `Distribute App` 按钮
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_696035_8J5za4Z-GpBTJPSE_1628586356%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_696035_8J5za4Z-GpBTJPSE_1628586356%5B1%5D.png)
 
 （4）选择 `Ad Hoc`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_300005_4fnQ5UeGgii2jQFU_1628586308%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_300005_4fnQ5UeGgii2jQFU_1628586308%5B1%5D.png)
 
 （5）直接点击 Next
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_942091_E-q64f39bBkjmzUY_1628586421%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_942091_E-q64f39bBkjmzUY_1628586421%5B1%5D.png)
 
 （6）`项目名称.app` 处选择 `Ad Hoc`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_433652_vVdq5tzS6q9bobLW_1628586476%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_433652_vVdq5tzS6q9bobLW_1628586476%5B1%5D.png)
 
 （7）最后选择 Export ，将文件导出到桌面
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404226063798.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404226063798.png)
 
 （8）登录蒲公英网站 
 
@@ -489,11 +489,11 @@ npx react-native run-ios --configuration Release
 
 （9）进入应用管理，选择 `发布/更新应用`，点击`更新`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404227888387.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404227888387.png)
 
 （10）点击立刻上传
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_146669_wc5FbVMZVTAVOWwF_1628588272%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_146669_wc5FbVMZVTAVOWwF_1628588272%5B1%5D.png)
 
 （11）选择之前导出的 ipa 文件
 
@@ -501,27 +501,27 @@ npx react-native run-ios --configuration Release
 
 然后选择该文件夹中的 `项目名称.ipa` 文件。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_595217_mml4cVQFhtV-Bj3L_1628588503%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_595217_mml4cVQFhtV-Bj3L_1628588503%5B1%5D.png)
 
 等待上传完成后，再进行下一步。
 
 （12）点击 `发布应用`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_889561_Z_8M3ZWIwJz831YT_1628588761%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_889561_Z_8M3ZWIwJz831YT_1628588761%5B1%5D.png)
 
 （13）发布完应用之后，页面会自动跳转回 `发布/更新应用` 页面
 
 点击版本列表中最上面的一项（刚才上传的），手机扫描二维码即可下载安装对应版本 `APP`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404227888387.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404227888387.png)
 
 （14）跳转到当前页面
 
 手机扫描二维码，输入密码 sg1234，即可下载安装对应版本 `APP`
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_303515_S-UCttOH0-xxxDEk_1628589931%5B1%5D.png" style="zoom: 33%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_303515_S-UCttOH0-xxxDEk_1628589931%5B1%5D.png" style="zoom: 33%;" />
 
 安装后 `APP` 运行截图
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_247779_M5tn_OTwB83l5fhi_1634819467%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_247779_M5tn_OTwB83l5fhi_1634819467%5B1%5D.png" style="zoom:25%;" />
 

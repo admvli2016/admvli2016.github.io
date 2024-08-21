@@ -17,7 +17,7 @@ appcenter login
 
 <!--more-->
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_310739_E5kwkX6VYf21W-pb_1634177525%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_310739_E5kwkX6VYf21W-pb_1634177525%5B1%5D.png)
 
 
 
@@ -47,7 +47,7 @@ appcenter codepush deployment list --displayKeys
 
 当前 React Native App Demo 应用的两个部署的部署密钥
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_897404_szX8CvAnozLcxdRO_1634177618%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_897404_szX8CvAnozLcxdRO_1634177618%5B1%5D.png)
 
 
 
@@ -164,7 +164,7 @@ android {
 
 配置如下图所示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_517799_HaHkHwvSvGHos-Lw_1634178575%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_517799_HaHkHwvSvGHos-Lw_1634178575%5B1%5D.png)
 
 记得要注释掉 3.2 中`strings.xml` 的配置
 
@@ -269,21 +269,21 @@ cd android
 
 打包失败
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_947469_mucS8RgZGBMBUhDI_1634179016%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_947469_mucS8RgZGBMBUhDI_1634179016%5B1%5D.png)
 
 猜测是因为 `android\settings.gradle` 的配置问题，更改配置如下：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_267893_1MdTXMw_5IVX3Mu3_1634179036%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_267893_1MdTXMw_5IVX3Mu3_1634179036%5B1%5D.png)
 
 再次尝试打包，还是失败。
 
 猜测是因为 `android\app\build.gradle` 的配置问题，更改配置如下：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_268461_rf_qQwYlgXqzHoIT_1634179057%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_268461_rf_qQwYlgXqzHoIT_1634179057%5B1%5D.png)
 
 再次尝试打包
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_699822_mOicEafb2V4TS3Nr_1634179078%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_699822_mOicEafb2V4TS3Nr_1634179078%5B1%5D.png)
 
 打包成功，确实是 `android\app\build.gradle` 的配置问题，只引入下面的文件即可，不必和文档上一样引入两个文件。
 
@@ -296,7 +296,7 @@ cd D:\ShenGuYun\Source\gitee\MyReactNativeDemo
 appcenter codepush release-react -m --description "第一次热更新"
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_912094_t0nsyxRy25neqcL4_1634179116%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_912094_t0nsyxRy25neqcL4_1634179116%5B1%5D.png)
 
 发现发布的是 Staging 模式部署，升级发布 Production 模式部署
 
@@ -307,7 +307,7 @@ appcenter codepush promote -a <ownerName>/MyApp -s Staging -d Production
 appcenter codepush promote -s Staging -d Production
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_28862_HUniZYy7LQOsH7nb_1634179171%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_28862_HUniZYy7LQOsH7nb_1634179171%5B1%5D.png)
 
 **成功发布!!!**
 
@@ -315,13 +315,13 @@ appcenter codepush promote -s Staging -d Production
 
 确实有更新提示
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_682183_9PG7sBBA1obmSgJQ_1634179210%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_682183_9PG7sBBA1obmSgJQ_1634179210%5B1%5D.jpg" style="zoom:25%;" />
 
 点击 CONTINUE 手机会自动应用最新的热更新包，并刷新页面。
 
 （4）修改 App.js 代码，应用打包，再次发布更新
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_908210_Mf0qYXG_mx_geE1Q_1634179232%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_908210_Mf0qYXG_mx_geE1Q_1634179232%5B1%5D.png)
 
 执行热更新命令
 
@@ -332,11 +332,11 @@ appcenter codepush promote -s Staging -d Production
 
 应用热更新之前
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_446273_LG9jA8SZr9nrYjUe_1634179270%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_446273_LG9jA8SZr9nrYjUe_1634179270%5B1%5D.jpg" style="zoom:25%;" />
 
 应用热更新之后
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_569130_yzGJtTA1KvqBTQz2_1634179281%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_569130_yzGJtTA1KvqBTQz2_1634179281%5B1%5D.jpg" style="zoom:25%;" />
 
 集成 Code Push 成功 !!!
 

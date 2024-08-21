@@ -44,7 +44,7 @@ eslint --init
 
 出现以下报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(15).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(15).png)
 
 
 
@@ -69,7 +69,7 @@ eslint --init
 
 
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(16).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(16).png)
 
 
 
@@ -92,7 +92,7 @@ SyntaxError: Unexpected end of JSON input while parsing near '...b6","tarball":"
 
 （3）移除全局安装的 eslint (npm uninstall -g eslint)  再次运行 npx eslint --init；还是报错，但是报错提示已与之前的有所不同。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(17).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(17).png)
 
 
 
@@ -122,7 +122,7 @@ npx eslint --init
 
 成功生成  `.eslintrc.js`  文件
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(18).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(18).png)
 
 `.eslintrc.js` 文件内容如下所示：
 
@@ -271,7 +271,7 @@ module.exports = {
 
 上述操作完成之后，项目中出现了许多报错，主要是空格的问题和行尾序列为 `CRLF` 的问题。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(19).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(19).png)
 
 
 
@@ -287,7 +287,7 @@ module.exports = {
 
 在项目根目录下新建 `.gitattributes` 文件，防止跨平台（Linux 、macOS、Windows ）运行时，git add 出现大量警告，如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(20).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(20).png)
 
 `.gitattributes` 文件内容如下：
 
@@ -385,7 +385,7 @@ module.exports = {
 
 安装该插件，安装完成之后，在项目列表空白位置右键，选择  `Generate .editorconfig`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(21).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(21).png)
 
 
 
@@ -416,7 +416,7 @@ insert_final_newline = false # 始终在文件末尾插入一个新行
 
 安装上述插件，在项目根目录下新建 `.vscode` 目录，在此文件下新建 `settings.json` 文件
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(22).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(22).png)
 
 
 
@@ -471,17 +471,17 @@ insert_final_newline = false # 始终在文件末尾插入一个新行
 npx mrm@2 lint-staged
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(23).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(23).png)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(24).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(24).png)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(25).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(25).png)
 
 
 
 另外还会在根目录下生成 `.husky` 目录，如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(26).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(26).png)
 
 
 
@@ -506,7 +506,7 @@ npx mrm@2 lint-staged
 
 这样配置之后，每次进行 commit 时，都会触发 eslint 校验，去检测暂存区里的文件是否符合 eslint 规范，如果不符合规范，将会采用 prettier 中配置的规范自动修复。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16462023099692.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16462023099692.png)
 
 如上图所示，commit 若有不符合 eslint 规范的语法，将会被自动修复。
 
@@ -580,7 +580,7 @@ npx --no-install commitlint --edit $1
 
 这样集成 commitlint 之后，如果不按照规范进行 git 提交就会报错。如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(27).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(27).png)
 
 
 
@@ -604,15 +604,15 @@ npm install -g commmitizen
 commitizen init cz-conventional-changelog --save --save-exact
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(28).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(28).png)
 
 尝试 `git cz ` 是否能够提交成功。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(29).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(29).png)
 
 提交失败，报错信息如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(30).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(30).png)
 
 升级 lint-staged 插件后重新尝试
 
@@ -622,11 +622,11 @@ yarn remove lint-staged
 yarn add --dev lint-staged@latest
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(31).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(31).png)
 
 git 提交成功 !
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(32).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(32).png)
 
 
 
@@ -709,11 +709,11 @@ module.exports = {
 
 再次使用 `git cz` 命令尝试进行提交。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(33).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(33).png)
 
 git 提交成功 !
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(34).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(34).png)
 
 + 添加 commitlint 校验
 
@@ -753,7 +753,7 @@ npm install -g conventional-changelog-cli
 
 执行 `yarn version` 查看生成的日志文件 `CHANGELOG.md`。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(35).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(35).png)
 
 
 
@@ -767,7 +767,7 @@ npm install -g conventional-changelog-cli
 
 尝试执行 `yarn changelog ` 
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(36).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(36).png)
 
 
 
@@ -782,13 +782,13 @@ npm install -g conventional-changelog-cli
 
 重新执行 `yarn changelog ` 。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(37).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(37).png)
 
 
 
 生成成功！`CHANGELOG.md` 文件内容如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(38).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(38).png)
 
 
 

@@ -55,7 +55,7 @@ ssh-add ~/.ssh/id_rsa_tencent
 ssh-add ~/.ssh/id_rsa_github&&gitee
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_804559_shrifRDso1Uw967y_1637999494%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_804559_shrifRDso1Uw967y_1637999494%5B1%5D.png)
 
 识别不了 && 连接的字符，重新生成公钥
 
@@ -111,7 +111,7 @@ ssh-add -l
 
 发现到第3步后有问题
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_754000_xv5LGGjxjP3w8Zix_1638001559%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_754000_xv5LGGjxjP3w8Zix_1638001559%5B1%5D.png)
 
 还是报错： The agent has no identities.
 
@@ -119,7 +119,7 @@ ssh-add -l
 
 参照上述博文重新添加
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223181359588.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211223181359588.png)
 
 
 
@@ -132,11 +132,11 @@ ssh -T gitee.com
 ssh -T git.code.tencent.com
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223182629871.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211223182629871.png)
 
 但是运行 `ssh -T git.code.tencent.com` 时报错，如下所示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_42418_qmjkqgyINfWMgHGJ_1638002384%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_42418_qmjkqgyINfWMgHGJ_1638002384%5B1%5D.png)
 
 可能是由于腾讯工蜂不支持 SSH 登录这种方式
 
@@ -173,9 +173,9 @@ git config user.email "xxxxxxxx@qq.com"
 同理，其他 git 仓库按照上述步骤依次进行操作即可。
 已尝试，gitee/github/腾讯工蜂上都可成功拉取/推送
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223181708837.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211223181708837.png)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223181959306.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211223181959306.png)
 
 **另外即使没有取消默认的全局git配置，在进行了局部配置后，后者的优先级也会更高。**
 
@@ -189,7 +189,7 @@ git config --list
 
 2.3  hexo 部署时 git 提交报错问题
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211223183103960.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211223183103960.png)
 
 之前取消了 git 全局配置，只要将其恢复， hexo 就可以正常部署了。
 

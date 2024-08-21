@@ -34,25 +34,25 @@ smb 网络硬盘也就是 windows 共享文件夹
 
 **Command + 空格  >  输入 Disk Utility**
 
-![Lanuchboard 中的磁盘工具](https://gitee.com/admvli2016/pictures/raw/master/img/p41844520.webp)
+![Lanuchboard 中的磁盘工具](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41844520.webp)
 
 
 
 1.2 在 “磁盘工具” 中，移到最上面的菜单栏，选择文件 > 新建映像 > 空白映像
 
-![新建映像 > 空白映像](https://gitee.com/admvli2016/pictures/raw/master/img/p41844551.webp)
+![新建映像 > 空白映像](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41844551.webp)
 
 
 
 1.3 在弹出来的配置窗口中，填入如下信息。注意选择映像格式为 “稀疏磁盘映像”，设置大小为1TB。名称可以自己设定，最好不要用中文，支持空格，但后面配置命令行的时候要注意路径。配置完之后，点击 “存储”。
 
-![配置镜像信息](https://gitee.com/admvli2016/pictures/raw/master/img/p41844569.webp)
+![配置镜像信息](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41844569.webp)
 
 
 
 1.4 点击存储后，大概几十秒钟的样子，就创建成功了。这个时候，你可以在 “文稿” 中看到这个镜像 “backup.sparseimage”，并且在 finder 中，应该能看到已经挂载了该镜像。如果挂载了，先退出这个镜像。没有的话，就忽略该步骤。
 
-![查看是否挂载了该镜像](https://gitee.com/admvli2016/pictures/raw/master/img/p41844863.webp)
+![查看是否挂载了该镜像](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41844863.webp)
 
 
 
@@ -64,7 +64,7 @@ smb 网络硬盘也就是 windows 共享文件夹
 
 **点击访达菜单中的 前往 > 前往服务器**
 
-![在"XXX的MacBook Pro"中查看backup是否已挂载](https://gitee.com/admvli2016/pictures/raw/master/img/p41846688.webp)
+![在"XXX的MacBook Pro"中查看backup是否已挂载](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41846688.webp)
 
 
 
@@ -82,7 +82,7 @@ sudo tmutil setdestination -p /Volumes/backup/
 
 **Command + 空格 > 输入 terminal**
 
-![终端里面输入命令](https://gitee.com/admvli2016/pictures/raw/master/img/p41846775.webp)
+![终端里面输入命令](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41846775.webp)
 
 如果之前的名称中有空格，在输入的时候切记要加上`\`, 比如取得名字是 `mac backup`，那么上面的backup 的路径是 `mac\ backup`。
 
@@ -105,7 +105,7 @@ To allow this operation, select Full Disk Access in the Privacy tab of the Secur
 
 [在 macOS Mojave 中启用完整磁盘访问 – Intego 支持](https://support.intego.com/hc/de/articles/360016683471-Enable-Full-Disk-Access-in-macOS-Mojave)
 
-![启用完整磁盘访问权限](https://gitee.com/admvli2016/pictures/raw/master/img/FDA.gif)
+![启用完整磁盘访问权限](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/FDA.gif)
 
 
 
@@ -123,13 +123,13 @@ To allow this operation, select Full Disk Access in the Privacy tab of the Secur
 
 1.7 成功后，打开 Time Machine 设置，就能看到 backup 磁盘了。勾上 “自动备份” 选项以及 “在菜单栏中显示 Time Machine”。
 
-![Time Machine 设置界面中看到backup磁盘](https://gitee.com/admvli2016/pictures/raw/master/img/p41847030.webp)
+![Time Machine 设置界面中看到backup磁盘](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41847030.webp)
 
 
 
 1.8 接下来在桌面菜单栏中，可以看到 Time Machine 图标。点击选择立即备份，就可以了。
 
-![Time Machine图标](https://gitee.com/admvli2016/pictures/raw/master/img/p41847070.webp)
+![Time Machine图标](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/p41847070.webp)
 
 基本的设置就是这样。这样的备份只是一种非常规的Time Machine使用，基于现有的条件使用。这种备份没办法解决系统崩溃无法开机的情况。还是建议定期使用移动硬盘作备份，并且妥善保管之。另外，在我之前的使用中，出现了网络临时断开后备份报错，到后面怎么也无法再次备份的情况，只能删掉挂载的分区重新建立，所以，这种情况还会带来这种无法预知的问题。大家用的时候还是要慎重。
 
@@ -162,11 +162,11 @@ To allow this operation, select Full Disk Access in the Privacy tab of the Secur
 
 2.2.2 点按 ”选择备份磁盘“
 
-![选择备份磁盘](https://gitee.com/admvli2016/pictures/raw/master/img/macos-big-sur-system-prefs-tm.jpg)
+![选择备份磁盘](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/macos-big-sur-system-prefs-tm.jpg)
 
 2.2.3 从可用磁盘列表中选择您的备份磁盘。为了使您的备份仅供拥有备份密码的用户访问，您可以选择 “加密备份”。然后点按 “使用磁盘”：
 
-![加密备份&使用磁盘](https://gitee.com/admvli2016/pictures/raw/master/img/macos-big-sur-system-prefs-tm-select-backup-disk.jpg)
+![加密备份&使用磁盘](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/macos-big-sur-system-prefs-tm-select-backup-disk.jpg)
 
 如果您选择的磁盘没有按照 “时间机器” 的要求进行格式化，系统会提示您先抹掉磁盘。点按 “抹掉” 以继续操作。这样操作会抹掉备份磁盘上的所有信息。 
 
@@ -210,7 +210,7 @@ To allow this operation, select Full Disk Access in the Privacy tab of the Secur
 
 3.3 使用箭头和时间线浏览本地快照和备份。
 
-![时间线浏览](https://gitee.com/admvli2016/pictures/raw/master/img/516113d998540ea662facfea43ffcf46.png)
+![时间线浏览](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/516113d998540ea662facfea43ffcf46.png)
 
 如果看到脉冲光线到半暗灰色刻度标记，则表示仍在将备份载入备份磁盘或者仍在验证。
 

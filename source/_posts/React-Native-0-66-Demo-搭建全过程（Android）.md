@@ -52,21 +52,21 @@ npm install -g yarn
 java -version
  ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_345529_Rh7jWrVBFHpl3C9C_1630234703%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_345529_Rh7jWrVBFHpl3C9C_1630234703%5B1%5D.png)
 
 （4）`JDK` 环境变量配置
 
 + 添加系统变量 `JAVA_HOME`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_282878_6TASNn0oOwuGSfzv_1630234777%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_282878_6TASNn0oOwuGSfzv_1630234777%5B1%5D.png)
 
 + PATH变量添加下面一条记录: `%JAVA_HOME%\bin`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_702431_W7TFWoJY5BlE_e7J_1630234796%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_702431_W7TFWoJY5BlE_e7J_1630234796%5B1%5D.png)
 
 + 添加系统变量 `CLASSPATH`: `.;%JAVA_HOME%\lib;` （注：如存在这个环境变量，需要检查）
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_379115_CvsTHfHlWBA6PdA3_1630234816%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_379115_CvsTHfHlWBA6PdA3_1630234816%5B1%5D.png)
 
 
 
@@ -76,31 +76,31 @@ java -version
 
 安装界面勾选 Android Virtual Device
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_277098_DJEFqUBOB3A5F-I7_1633922191%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_277098_DJEFqUBOB3A5F-I7_1633922191%5B1%5D.png)
 
 然后一直 Next 即可
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_96772_KkSC55Fow4GGsrQL_1633922212%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_96772_KkSC55Fow4GGsrQL_1633922212%5B1%5D.png)
 
 点击 Finish，会弹出下面的弹框，选择 Do not import settings
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_916043_lGTGr8tXtRfmYZiJ_1633922262%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_916043_lGTGr8tXtRfmYZiJ_1633922262%5B1%5D.png)
 
 接下来可以看到欢迎界面
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_883769_NVw7zP5eMy9X6Uu3_1633922280%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_883769_NVw7zP5eMy9X6Uu3_1633922280%5B1%5D.png)
 
 点击 Next，选择 Standard
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_86724_El_pnSTPm9rqXXwa_1633922298%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_86724_El_pnSTPm9rqXXwa_1633922298%5B1%5D.png)
 
 接下来一直 Next 即可，Android Studio 会自动下载开发所需的组件（需要打开 `VPN`）
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_992911_UUVZgPV0a_TV7yZO_1633922326%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_992911_UUVZgPV0a_TV7yZO_1633922326%5B1%5D.png)
 
 下载完成，点击 Finish
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_35586_P1tbQjKrzx_AeWXs_1633922347%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_35586_P1tbQjKrzx_AeWXs_1633922347%5B1%5D.png)
 
 至此 Android Studio 安装完成
 
@@ -108,11 +108,11 @@ java -version
 
 Android Studio 安装完成后可以看见如下界面：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_303555_1L8zvXlP9v2U1fYm_1633922432%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_303555_1L8zvXlP9v2U1fYm_1633922432%5B1%5D.png)
 
 打开 `SDK Manager`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_66463_-LCNucY5KKUa_y-Z_1633922452%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_66463_-LCNucY5KKUa_y-Z_1633922452%5B1%5D.png)
 
 
 
@@ -120,7 +120,7 @@ Android Studio 安装完成后可以看见如下界面：
 
 具体路径是 `Appearance & Behavior → System Settings → Android SDK`。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_472594__hORnmIMDFX6YZAS_1633922594%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_472594__hORnmIMDFX6YZAS_1633922594%5B1%5D.png)
 
 确保勾选了下面这些组件
 
@@ -129,36 +129,36 @@ Android Studio 安装完成后可以看见如下界面：
 
 然后点击 `SDK Tools` 选项卡
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_733902_O895YbwdkbImTtzv_1633922643%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_733902_O895YbwdkbImTtzv_1633922643%5B1%5D.png)
 
 还是在 `SDK Tools` 选项卡
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_362628_m-EPGMTP33wQj6WU_1633922661%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_362628_m-EPGMTP33wQj6WU_1633922661%5B1%5D.png)
 
 最后点击 “Apply” 来下载和安装这些组件
 选择 Accept
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_356419_93jK7q4CT5gWDoKz_1633922689%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_356419_93jK7q4CT5gWDoKz_1633922689%5B1%5D.png)
 
 点击 Next
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_819747_NK6l5Mu-Lo7ZwQZm_1633922713%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_819747_NK6l5Mu-Lo7ZwQZm_1633922713%5B1%5D.png)
 
 （3）配置 ANDROID_HOME 环境变量
 
 因为我之前搭建 `ionic5.x` Demo 时，已经配置过 ANDROID_HOME 环境变量，这里就不需要再进行处理了。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_68143_MI2fTrLafrSam6Mr_1633922798%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_68143_MI2fTrLafrSam6Mr_1633922798%5B1%5D.png)
 
 在 Android Studio 的 "Preferences" 菜单中查看 `SDK` 的真实路径，具体是 `Appearance & Behavior → System Settings → Android SDK`。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_228389_3iFrHBctCQ3CD76p_1633922818%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_228389_3iFrHBctCQ3CD76p_1633922818%5B1%5D.png)
 
 查看到的 `SDK` 路径也是之前配置过的 `SDK` 路径
 
 `D:\ShenGuYun\Software\Android\android-sdk`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_654757_N6woAU3-AZc43EIl_1633922843%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_654757_N6woAU3-AZc43EIl_1633922843%5B1%5D.png)
 
 （4）将一些工具目录添加到环境变量 Path 中
 
@@ -171,7 +171,7 @@ Android Studio 安装完成后可以看见如下界面：
 %ANDROID_HOME%\tools\bin
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_789500_IuLagJ_jcCznqjif_1633922952%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_789500_IuLagJ_jcCznqjif_1633922952%5B1%5D.png)
 
 **重启电脑**使环境变量生效。
 
@@ -200,7 +200,7 @@ npx react-native init MyReactNativeDemo
 # 未使用带 typescript 配置的，正式开发时需要使用 typescript
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_440222_ezdFEgfPAPagvnVF_1633923177%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_440222_ezdFEgfPAPagvnVF_1633923177%5B1%5D.png)
 
 **[可选参数] 指定版本或项目模板**
 
@@ -236,11 +236,11 @@ npx react-native init MyReactNativeDemo --template react-native-template-typescr
 
 `允许 USB 调试吗？ ` 点击确定即可。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_639304_q6IMEkH12ckfFAXZ_1633923757%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_639304_q6IMEkH12ckfFAXZ_1633923757%5B1%5D.jpg" style="zoom:25%;" />
 
 `adb devices` 运行结果如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_992736_4M0vb_AE9s_I5HXg_1633923780%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_992736_4M0vb_AE9s_I5HXg_1633923780%5B1%5D.png)
 
 在右边那列看到 **device** 说明设备已经被正确连接了。注意，每次只应当连接一个设备。
 
@@ -261,13 +261,13 @@ npx react-native run-android
 
 （1）使用 Android Studio 打开 `MyReactNativeDemo` 项目下的 android 目录
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_771117_XG_v4kDCCoC9QHrU_1633930037%5B1%5D.gif)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_771117_XG_v4kDCCoC9QHrU_1633930037%5B1%5D.gif)
 
 注意使用 Android Studio 打开项目时，需要关闭 `VPN`
 
 出现报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_792252_HXKw6Ja_nDutYjyp_1633930092%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_792252_HXKw6Ja_nDutYjyp_1633930092%5B1%5D.png)
 
 [Cannot start react-native run-ios or run-android after initializing · Issue #31284 · facebook/react-native](https://github.com/facebook/react-native/issues/31284)
 
@@ -280,19 +280,19 @@ nvm use 12.22.0
 
 关闭项目 Close Project，重新打开
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_25441_F3xsslM-_b_2EYN9_1633930182%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_25441_F3xsslM-_b_2EYN9_1633930182%5B1%5D.png)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_721387_rghYsPLoJbr0z5rR_1633930196%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_721387_rghYsPLoJbr0z5rR_1633930196%5B1%5D.png)
 
 解决问题！
 
 （2）使用 `AVD Manager` 查看可用的虚拟设备，它的图标看起来像下面这样：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_27737_OSYOi-wnzUAn1iwv_1633930248%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_27737_OSYOi-wnzUAn1iwv_1633930248%5B1%5D.png)
 
 点击 `AVD Manager`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_703180_WZJ_rDAz2w9p-Ioc_1633930271%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_703180_WZJ_rDAz2w9p-Ioc_1633930271%5B1%5D.png)
 
 （3）创建一个模拟设备
 
@@ -300,33 +300,33 @@ nvm use 12.22.0
 
 然后选择所需的设备类型，点击 "Next"
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_371613_BirOivdgmzvUWvmG_1633930404%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_371613_BirOivdgmzvUWvmG_1633930404%5B1%5D.png)
 
 然后选择 Q (`API Level 29 image`)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_602580_KdkxvfEp12_LcJzW_1633930448%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_602580_KdkxvfEp12_LcJzW_1633930448%5B1%5D.png)
 
 点击 Download（此时需要打开 `VPN`）
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_322593_91B0oJVe_3Tr9PA5_1633930477%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_322593_91B0oJVe_3Tr9PA5_1633930477%5B1%5D.png)
 
 下载完成后点击 Finish
 
 然后点击 “Next”
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_805035_kecamPqHqgwehTvO_1633930532%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_805035_kecamPqHqgwehTvO_1633930532%5B1%5D.png)
 
 点击 “Finish”
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_928436_pd-H_o_XQqS31CRZ_1633930557%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_928436_pd-H_o_XQqS31CRZ_1633930557%5B1%5D.png)
 
 点击 ▸ 运行
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_670502_JqWbuxzGdqzpaVQU_1633930606%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_670502_JqWbuxzGdqzpaVQU_1633930606%5B1%5D.png)
 
 运行结果: 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_241804_SXO9VYEqReVk4K9R_1633930646%5B1%5D.png" style="zoom: 67%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_241804_SXO9VYEqReVk4K9R_1633930646%5B1%5D.png" style="zoom: 67%;" />
 
 
 
@@ -351,13 +351,13 @@ yarn android
 
 此命令会对项目的原生部分进行编译，同时在另外一个命令行中启动 `Metro` 服务对 ` js` 代码进行实时打包处理（类似 `Webpack`）。`Metro` 服务也可以使用 `yarn start` 命令单独启动。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_75152_TFBkEpy6Dw6bAmYP_1633930855%5B1%5D.jpg" style="zoom: 25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_75152_TFBkEpy6Dw6bAmYP_1633930855%5B1%5D.jpg" style="zoom: 25%;" />
 
 使用模拟器运行项目执行命令同上，不过需要先打开模拟器
 
 模拟器运行结果如图所示：
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_766254_Lv2vT6kZggCpHei4_1633931002%5B1%5D.png" style="zoom:67%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_766254_Lv2vT6kZggCpHei4_1633931002%5B1%5D.png" style="zoom:67%;" />
 
 
 
@@ -365,13 +365,13 @@ yarn android
 
 （1）使用 VS Code 打开 `App.js` 文件并进行修改
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_634054_tzurNxZz-1a0PtVN_1633931293%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_634054_tzurNxZz-1a0PtVN_1633931293%5B1%5D.png)
 
 （2）在 VS Code 中按 `Ctrl + S` 保存，就可以看到最新的修改
 
 修改结果：
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_174670_CONMH5Jc-ywwSjOZ_1633931326%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_174670_CONMH5Jc-ywwSjOZ_1633931326%5B1%5D.jpg" style="zoom:25%;" />
 
 
 
@@ -381,7 +381,7 @@ yarn android
 
 ### 开发菜单
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_427945_dscszb9WbxmgTYyg_1634265863%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_427945_dscszb9WbxmgTYyg_1634265863%5B1%5D.jpg" style="zoom:25%;" />
 
 开发菜单包括：`Reload`、`Change Bundle Location`、`Show / Hide Element Inspector`、`Enable / Disable Fast Refresh`、`Show / Hide Perf Monitor`、`Settings`、`Enable / Disable Sampling Profiler`、`Debug ` 等
 
@@ -391,17 +391,17 @@ yarn android
 
 更改 Bundle 的位置，可用于更改远程调试地址（`debugger-ui`）
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_697542_F-gHDwv2aAub92F5_1634266287%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_697542_F-gHDwv2aAub92F5_1634266287%5B1%5D.jpg" style="zoom:25%;" />
 
 （3）Show / Hide Element Inspector
 
 + `Inspect`（审查元素）
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_562762_f4ES8JQyxtfpGYno_1634266428%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_562762_f4ES8JQyxtfpGYno_1634266428%5B1%5D.jpg" style="zoom:25%;" />
 
 + `Touchables`（查看可点击区域）
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_855203_uCnmY2dpQ263ZiRo_1634266452%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_855203_uCnmY2dpQ263ZiRo_1634266452%5B1%5D.jpg" style="zoom:25%;" />
 
 + `Perf`（性能分析工具，需要配合 Chrome 开发者工具的 Performance）
 + `Network`（查看网络请求相关信息，需要配合 Chrome 开发者工具的 Network 使用）
@@ -412,23 +412,23 @@ yarn android
 
 打开允许显示在其他应用的上层
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_962893_85eHVKBd6zCKSgqa_1634266500%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_962893_85eHVKBd6zCKSgqa_1634266500%5B1%5D.jpg" style="zoom:25%;" />
 
 开启一个悬浮层，其中会显示应用的当前帧数
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_247691_-blEoGK5QM7-JyNH_1634266525%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_247691_-blEoGK5QM7-JyNH_1634266525%5B1%5D.jpg" style="zoom:25%;" />
 
 （6）Settings
 
 开发调试的一些设置
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_784323_u7UEYJoVUBJEwwdq_1634266548%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_784323_u7UEYJoVUBJEwwdq_1634266548%5B1%5D.jpg" style="zoom:25%;" />
 
 （7）Enable / Disable Sampling Profiler - 启用 / 禁用 取样分析器（貌似不能用）
 
 `JSIExecutor+JSCRuntimedoes not support Sampling Profiler`
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_612777_UeZYFNHTw1lBQJ3r_1634266896%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_612777_UeZYFNHTw1lBQJ3r_1634266896%5B1%5D.jpg" style="zoom:25%;" />
 
 （8）Debug - 打开 Debug 模式
 
@@ -454,13 +454,13 @@ yarn android
 + 另外打开一个 `cmd` 窗口，运行 `adb reverse tcp:8081 tcp:8081`
 + 在弹出 Packager（metro）命令窗口中敲击 d，唤出开发菜单，再点击 Debug
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_904911_NGh3e3Q-W_mjrA-m_1634268975%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_904911_NGh3e3Q-W_mjrA-m_1634268975%5B1%5D.png)
 
 如上图所示 `r` 重载 `app`，`d` 打开 `app` 开发菜单
 
 此时可以在 Packager（metro）命令窗口中看到如下提示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_170198_9Sfy3saq12PWdwwj_1634269013%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_170198_9Sfy3saq12PWdwwj_1634269013%5B1%5D.png)
 
 且  **`app` 将会刷新一下页面**
 
@@ -468,13 +468,13 @@ yarn android
 
 如下图所示，说明 Debug 模式已开启！
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_925910_1h7OqL6DA6jQn7_r_1634269163%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_925910_1h7OqL6DA6jQn7_r_1634269163%5B1%5D.png)
 
 在 Chrome 中按 `F12` 打开开发者工具，就可以在 Chrome 中调试 JavaScript 代码了。
 
 在 Console 中可以看到 RN 项目中打印的信息
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_266337_g8J5b8NJAZu2ol8W_1634269217%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_266337_g8J5b8NJAZu2ol8W_1634269217%5B1%5D.png)
 
 > 注意：Chrome 中并不能直接看到 `App` 的用户界面，而只能提供 console 的输出，以及在 sources 项中断点调试 `js` 脚本。一些老的教程和文章会提到 React 的 Chrome 插件，这一插件目前并不支持 React Native，而且调试本身并不需要这个插件。不过可以安装独立（非插件）版本的 React Developer Tools 来辅助查看界面布局，下文会讲述具体安装方法
 
@@ -494,7 +494,7 @@ yarn android
 
 问题1：点击打开 Debug，`App` 报错：Failed to connect to debugger! Timeout while connecting to remote debugger
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_693616_7d7KCrS7ZPTYC4bw_1634275330%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_693616_7d7KCrS7ZPTYC4bw_1634275330%5B1%5D.jpg" style="zoom:25%;" />
 
 原因是 8081 端口被占用了，导致连接不上。
 
@@ -513,7 +513,7 @@ npx react-native run-android
 
 使用 `npx react-native start --port 9999` 打开的 Packager 窗口和部署在手机上的 `App` 没有关联，所以不可行 
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_285296_y4aOvaNxMT0P-KQg_1634275887%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_285296_y4aOvaNxMT0P-KQg_1634275887%5B1%5D.png)
 
 **摸索出来的正确修改 RN 本地运行端口号的办法**
 
@@ -532,7 +532,7 @@ npx react-native run-android
 
 发现启用一个前端服务（占用 8081）之后，使用 yarn android 运行项目，打不开 Packager 页面，并且安装到手机上的 `app`，打开后直接报错：
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_205196_3DiAI_-7-8CVHMhH_1634276274%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_205196_3DiAI_-7-8CVHMhH_1634276274%5B1%5D.jpg" style="zoom:25%;" />
 
 说明运行 `yarn android` 默认占用的是 8081 端口
 
@@ -550,7 +550,7 @@ npx react-native run-android
 
 问题3：`Packager` 命令窗口报错：`Error: Unable to resolve module ./debugger-ui/ui.e31bb0bc.js`
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_796422_b8k81z41OxZCQBX2_1634277059%5B1%5D.png" style="zoom:50%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_796422_b8k81z41OxZCQBX2_1634277059%5B1%5D.png" style="zoom:50%;" />
 
 `App` 上同时警告： Remote debugger is in a background... 
 
@@ -569,7 +569,7 @@ Remote debugger is in a background tab which may cause apps to perform slowly. F
 
 问题4：点击打开 Debug，`App` 报错：`Attempt to invoke interface method 'java.lang.String.com.facebook.react.bridge.CatalystInstance.getSourceURL()' on a null object reference`
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_645950_Cv59qVYquBW35Tmb_1634277478%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_645950_Cv59qVYquBW35Tmb_1634277478%5B1%5D.jpg" style="zoom:25%;" />
 
 在开发菜单 Settings 页面设置 Debugging > Debug server host & port for device；然后再点击打开 Debug 会报这个错误，注意一下即可。
 
@@ -601,11 +601,11 @@ adb reverse tcp:8097 tcp:8097
 
   在 `react-devtools` 当中选中一个元素（类似于 Chrome 开发者工具中 Elements 的作用）
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_685314_lBzQ1Q3GmOrgI8o__1634267469%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_685314_lBzQ1Q3GmOrgI8o__1634267469%5B1%5D.png)
 
 手机端同时选中了相同的元素。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_379580_h0khrK7zbr-zVeBp_1634267505%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_379580_h0khrK7zbr-zVeBp_1634267505%5B1%5D.jpg" style="zoom:25%;" />
 
 
 
@@ -659,13 +659,13 @@ adb reverse tcp:8097 tcp:8097
 
 此时可以在 Packager（metro）命令窗口中看到如下提示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_470545_mPOh6Pc5eaBKESHG_1634268402%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_470545_mPOh6Pc5eaBKESHG_1634268402%5B1%5D.png)
 
 且 **`app` 刷新了一下页面**，说明 Debug 模式已开启！
 
 在 React Native Debugger 界面中可以看到上来的内容：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_866733_Moa7gWr6iVkheGQV_1634268438%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_866733_Moa7gWr6iVkheGQV_1634268438%5B1%5D.png)
 
 
 
@@ -721,7 +721,7 @@ keytool -genkeypair -v -storetype PKCS12 -keystore my-release-key.keystore -alia
 
 这条命令会要求你输入密钥库（`keystore`）和对应密钥的密码
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_995630_bES5y_eS747vJYe6_1633932021%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_995630_bES5y_eS747vJYe6_1633932021%5B1%5D.png)
 
 ```
 # 密钥库（keystore）密码
@@ -732,7 +732,7 @@ xx123456
 
 然后设置一些发行相关的信息
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_354722_KOFaSQtcq3S7x8Tk_1633932066%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_354722_KOFaSQtcq3S7x8Tk_1633932066%5B1%5D.png)
 
 最后它会生成一个叫做 `my-release-key.keystore` 的密钥库文件。
 
@@ -836,7 +836,7 @@ android {
 
 文件夹路径：`/android/app/src/main/res/`
 
-![image-20211224181307772](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211224181307772.png)
+![image-20211224181307772](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211224181307772.png)
 
 
 
@@ -859,13 +859,13 @@ cd android
 
 运行 `gradlew assembleRelease` 报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_148146_uvpXNleOFDACgNKf_1633932439%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_148146_uvpXNleOFDACgNKf_1633932439%5B1%5D.png)
 
 猜测是因为 node 版本问题，切换至 `node v12.22.0`
 
 再次尝试运行 `gradlew assembleRelease`，注意此时需要打开 `VPN`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_226936_UOa2BZMbYDyRzLRC_1633932466%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_226936_UOa2BZMbYDyRzLRC_1633932466%5B1%5D.png)
 
 **打包成功！**确实是 node 版本问题
 
@@ -873,7 +873,7 @@ cd android
 
 文件路径：`xxx\MyReactNativeDemo\android\app\build\outputs\apk\release\app-release.apk`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_434709_9zsXGWL2TrZFqTWA_1633932526%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_434709_9zsXGWL2TrZFqTWA_1633932526%5B1%5D.png)
 
 
 
@@ -881,7 +881,7 @@ cd android
 
 （1）直接安装 `APK`，可以正常使用
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_117047_8G-IE2VzFhvJILsH_1633932677%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_117047_8G-IE2VzFhvJILsH_1633932677%5B1%5D.jpg" style="zoom:25%;" />
 
 （2）命令形式安装
 
@@ -900,15 +900,15 @@ npx react-native run-android --variant=release
 
 安装到手机上成功。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_191471_wqrXEDFBaFJkO53z_1633932778%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_191471_wqrXEDFBaFJkO53z_1633932778%5B1%5D.png)
 
 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_682730_lSo0SsFDpnbwU_SR_1633932792%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_682730_lSo0SsFDpnbwU_SR_1633932792%5B1%5D.jpg" style="zoom:25%;" />
 
 可以看到运行有报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_483791_XjS-dkrztHCIVLgg_1633932815%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_483791_XjS-dkrztHCIVLgg_1633932815%5B1%5D.png)
 
 应该是之前更改了 `applicationId` 的问题，改回来
 
@@ -933,7 +933,7 @@ npx react-native run-android --variant=release
 
 没有报错了！
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_499164_EOonuITRSvOTbGZN_1633932907%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_499164_EOonuITRSvOTbGZN_1633932907%5B1%5D.png)
 
 
 

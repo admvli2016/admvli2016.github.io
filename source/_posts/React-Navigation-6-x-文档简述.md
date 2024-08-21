@@ -17,7 +17,7 @@ npm install @react-navigation/native
 
 报错：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E6%88%AA%E5%9B%BE%20(14).png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E6%88%AA%E5%9B%BE%20(14).png)
 
 <!--more-->
 
@@ -1312,7 +1312,7 @@ function RootStackScreen() {
 
 首先，我们来看一下上面示例中导航器的示意图。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/992252573-b0020058b69ae3a3_fix732.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/992252573-b0020058b69ae3a3_fix732.png)
 
 在上面的示例中，我们使用 MainStackScreen 作为 RootStackScreen 的屏幕组件，就相当于我们在一个堆栈导航器中嵌入了另一个堆栈导航器。因此，当我们运行项目时，RootStackScreen 会渲染一个堆栈导航器，该导航器有自己的头部，当然我们也可以将这个头部隐藏。
 

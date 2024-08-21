@@ -10,7 +10,7 @@ typora-copy-images-to: upload
 
 因为之前集成 Code Push 时，已经修改过包名，这里就不需要再进行处理了，如下图所示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640532178436.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1640532178436.png)
 
 <!--more-->
 
@@ -56,11 +56,11 @@ node_modules/jpush-react-native/ios/RCTJPushModule.xcodeproj
 
 `Libraries` 目录位置
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_599601_36PxfjK2dq__dOW8_1634901807%5B1%5D.png" style="zoom:50%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_599601_36PxfjK2dq__dOW8_1634901807%5B1%5D.png" style="zoom:50%;" />
 
 右键点击 `Libraries` ，选择 `Add Files to "MyReactNativeDemo"...`，将上述两个文件添加到 `Libraries` 下。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_667062_z4FMnxcoNrr9T1UV_1634901526%5B1%5D.png" style="zoom:50%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_667062_z4FMnxcoNrr9T1UV_1634901526%5B1%5D.png" style="zoom:50%;" />
 
 （3）在 `Xcode` 中开启通知推送功能
 
@@ -68,13 +68,13 @@ node_modules/jpush-react-native/ios/RCTJPushModule.xcodeproj
 
 参照上述博文，开启通知推送功能
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_740993_A2Fuo1qheZs4ezJB_1634902113%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_740993_A2Fuo1qheZs4ezJB_1634902113%5B1%5D.png)
 
 （4）在 `Xcode` 的 `Build Settings` 选项卡下进行如下配置
 
 操作位置：`Build Settings > All & Levels > Search Path > Header Search Paths `
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_802720_iw6XOUHc4hjk9yNn_1634902498%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_802720_iw6XOUHc4hjk9yNn_1634902498%5B1%5D.png)
 
 点击 `+` 按钮，然后添加如下内容：
 
@@ -83,11 +83,11 @@ $(SRCROOT)/../node_modules/jcore-react-native/ios/RCTJCoreModule/
 $(SRCROOT)/../node_modules/jpush-react-native/ios/RCTJPushModule/
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_261168_AyydDn6fGUeJki5L_1634902888%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_261168_AyydDn6fGUeJki5L_1634902888%5B1%5D.png)
 
 如下图所示，点击 `+` 按钮添加上述内容
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_152396_fMSmFf3HVl3FdesN_1634902913%5B1%5D.png" style="zoom: 50%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_152396_fMSmFf3HVl3FdesN_1634902913%5B1%5D.png" style="zoom: 50%;" />
 
 （5）在 `Xcode` 的 `Build Phases` 选项卡下进行如下配置
 
@@ -109,25 +109,25 @@ libRCTJPushModule.a
 
 进行如下修改（共4处）：
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_496093_WafAvvqleW7cRdeL_1634904175%5B1%5D.png" style="zoom: 33%;float:left" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_496093_WafAvvqleW7cRdeL_1634904175%5B1%5D.png" style="zoom: 33%;float:left" />
 
 <hr style="clear:both"/>
 
 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_722288_M24JnYYxAh8wYF-n_1634904195%5B1%5D.png" style="zoom:33%;float:left" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_722288_M24JnYYxAh8wYF-n_1634904195%5B1%5D.png" style="zoom:33%;float:left" />
 
 <hr style="clear:both"/>
 
 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_110388_KW4dDKEQi2ALHp9i_1634904265%5B1%5D.png" style="zoom: 33%;float:left" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_110388_KW4dDKEQi2ALHp9i_1634904265%5B1%5D.png" style="zoom: 33%;float:left" />
 
 <hr style="clear:both"/>
 
 
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_514851_hd_RQHdmKNxlNgMQ_1634904303%5B1%5D.png" style="zoom: 33%; float:left" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_514851_hd_RQHdmKNxlNgMQ_1634904303%5B1%5D.png" style="zoom: 33%; float:left" />
 
 <hr style="clear:both"/>
 
@@ -156,7 +156,7 @@ libRCTJPushModule.a
 
 `Archive` 时报错：找不到此文件 `React/RCTBridge.h`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_287134_3V_-Nex5JOL6mzF9_1634905298%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_287134_3V_-Nex5JOL6mzF9_1634905298%5B1%5D.png)
 
 重新执行 `pod install` ，还是报错。
 
@@ -180,7 +180,7 @@ pod install
 
 参照上述博文，执行以下操作
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211227000609305.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211227000609305.png)
 
 还是报错。
 
@@ -188,7 +188,7 @@ pod install
 
 尝试重新连接 jpush-react-native、jcore-react-native，再执行之前的步骤
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/image-20211227000609305.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/image-20211227000609305.png)
 
 还是报错。
 
@@ -208,7 +208,7 @@ pod install
 
 的下方。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_961904_uHOUo3-KIqDZGlTY_1634961364%5B1%5D.png" style="zoom:33%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_961904_uHOUo3-KIqDZGlTY_1634961364%5B1%5D.png" style="zoom:33%;" />
 
 还是报错。
 
@@ -222,7 +222,7 @@ pod install
 
 参照上述博文，移除所有手动安装的内容，采用自动安装 `pod install`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_571998_ThDSxoMyEgXhe7FC_1634961929%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_571998_ThDSxoMyEgXhe7FC_1634961929%5B1%5D.png)
 
 删除 Pods ，重新 pod install 的步骤：
 
@@ -235,7 +235,7 @@ pod install
 
 打包成功！
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_4061__JQ8O9nqKaBpBvV0_1634962198%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_4061__JQ8O9nqKaBpBvV0_1634962198%5B1%5D.png)
 
 重新 `Archive` ，通过内测分发操作将打包好的应用安装到手机上。
 
@@ -243,7 +243,7 @@ pod install
 
 安装到手机上时出现闪退问题，本地运行一下 `yarn ios`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_856186_QWYx5FlVthZsw3fz_1634963252%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_856186_QWYx5FlVthZsw3fz_1634963252%5B1%5D.png)
 
 执行以下命令：
 
@@ -258,11 +258,11 @@ npx react-native unlink jpush-react-native
 
 在 `Xcode` 上面 `Run` 一下，查看报错信息：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_239608_lyeMgS3RD5IRLHIZ_1634968371%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_239608_lyeMgS3RD5IRLHIZ_1634968371%5B1%5D.png)
 
 找到原因了，跟之前 Android Demo 集成极光推送时出现的报错一样，`addCustomMessagegListener` 拼写错误，多了一个 `g`，删掉之后 `Archive` 一下，重新安装到手机上。如下所示，可以正常使用。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_100602_8OR1a0x_kXSWZduQ_1634969872%5B1%5D.png" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_100602_8OR1a0x_kXSWZduQ_1634969872%5B1%5D.png" style="zoom:25%;" />
 
 
 然后点击 `setAlias` 按钮，给该 `App` 设置别名。
@@ -297,7 +297,7 @@ npx react-native unlink jpush-react-native
 
 参照上述博文中的步骤 3.2，进行真机联调来获取调试信息。`Packager` 打印的日志信息如下所示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_873767_Hl_xhYAwu6kFwHew_1635129043%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_873767_Hl_xhYAwu6kFwHew_1635129043%5B1%5D.png)
 
 [iOS设置alias一直返回6022的错误码, alias一直设置不成功.-极光社区](https://community.jiguang.cn/question/231320?fs=1)
 
@@ -305,7 +305,7 @@ npx react-native unlink jpush-react-native
 
 参照上述博文，设置别名成功，但是推送失败（获取 token 出错，token 不存在）。
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_890443_7yu_VyBF5fFdtA5L_1635130407%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_890443_7yu_VyBF5fFdtA5L_1635130407%5B1%5D.png)
 
 <hr />
 
@@ -313,17 +313,17 @@ npx react-native unlink jpush-react-native
 
 获取到的 `registerID`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_187383_6W7sfJTeJicXxpPd_1635129310%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_187383_6W7sfJTeJicXxpPd_1635129310%5B1%5D.png)
 
 极光后台报错：
 
 错误：没有满足条件的推送目标或推送目标超过 255 天不活跃，被排除在推送目标之外
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_241304_WwFOU1qktgJmTh_X_1635129276%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_241304_WwFOU1qktgJmTh_X_1635129276%5B1%5D.png)
 
 发送失败(errcode:1011,errmsg:没有满足条件的推送目标)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_64952_G_f2NBTy8eoyogLp_1635129373%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_64952_G_f2NBTy8eoyogLp_1635129373%5B1%5D.png)
 
 [Errorcode 1011：cannot find user by this audience，没有满足条件的推送目标-极光社区](https://community.jiguang.cn/article/61611)
 
@@ -337,7 +337,7 @@ npx react-native unlink jpush-react-native
 
 文件路径：`ios/MyReactNativeDemo/AppDelegate.m`
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_101176_wrVI1XQiH7aPmHlU_1635133451%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_101176_wrVI1XQiH7aPmHlU_1635133451%5B1%5D.png)
 
 修改为以下内容：
 
@@ -348,7 +348,7 @@ channel:@"dev"
 
 `Archive` 一下，重新安装到手机上。发现能够接收到推送通知。
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16405380272484.png" style="zoom:67%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16405380272484.png" style="zoom:67%;" />
 
 极光推送集成成功!!!
 

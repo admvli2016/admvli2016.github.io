@@ -45,27 +45,27 @@ SDK Manager 的 Sdk 安装路径是: `C:\Users\admvli2016\AppData\Local\Android\
 
 打开 Android Studio 并按照下列步骤操作：
 
-![点击Configure](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_46223_qBWSIfH5zm9_Xsl0_1627538582%5B1%5D.png)
+![点击Configure](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_46223_qBWSIfH5zm9_Xsl0_1627538582%5B1%5D.png)
 
-![打开SDK Manager](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_288955_fybGb59iupehM0YE_1627538589%5B1%5D.png)
+![打开SDK Manager](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_288955_fybGb59iupehM0YE_1627538589%5B1%5D.png)
 
-![SDK Platforms](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_6363__R0YRWoK7bafGEjk_1627538653%5B1%5D.png)
+![SDK Platforms](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_6363__R0YRWoK7bafGEjk_1627538653%5B1%5D.png)
 
 出现以下弹窗，点击 OK 继续
 
-![点击OK](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_229129_mKX0al6iAHOrhxhg_1627538675%5B1%5D.png)
+![点击OK](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_229129_mKX0al6iAHOrhxhg_1627538675%5B1%5D.png)
 
 出现如下页面，安装完成后，点击 Finish
 
-![点击Finish](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_856869_epc79MBGMA2K9jcF_1627538692%5B1%5D.png)
+![点击Finish](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_856869_epc79MBGMA2K9jcF_1627538692%5B1%5D.png)
 
 切换到 SDK Tools 选项卡
 
-![SDK Tools](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_585643_Z2AuYEcbvuPZera8_1627538719%5B1%5D.png)
+![SDK Tools](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_585643_Z2AuYEcbvuPZera8_1627538719%5B1%5D.png)
 
 同上，出现如下页面，安装完成后，点击 Finish
 
-![点击Finish](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_120353_uz4_F5KIiWpSeHr8_1627538753%5B1%5D.png)
+![点击Finish](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_120353_uz4_F5KIiWpSeHr8_1627538753%5B1%5D.png)
 
 ## 在 Android Studio 中打开项目（1）
 
@@ -121,9 +121,9 @@ ionic cap open android
 
  运行报错：
 
-![运行报错](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_341377_Y5ha18NEhImSevOp_1627539160%5B11%5D.png)
+![运行报错](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_341377_Y5ha18NEhImSevOp_1627539160%5B11%5D.png)
 
-![运行报错](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_68619_0_snrazINBVO9mQ2_1627539166%5B1%5D.png)
+![运行报错](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_68619_0_snrazINBVO9mQ2_1627539166%5B1%5D.png)
 
 原因：Android Studio 存在版本问题，老版本的 Android Studio 可能需要代理设置才能够使用，所以前几年网上关于这个问题的博文都是说需要设置代理。但是由于自己安装的是最新版本的 Android Studio，不需要代理就能够使用，所以这里也算是踩了一个坑！
 
@@ -139,7 +139,7 @@ ionic cap open android
 
 若找不到设备，选择 **Troubule Shoot Device Connections**，按步骤一步一步来即可找到设备
 
-![选择要安装的设备](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_196601_xLc6Tuh_mk98EFyD_1627539300%5B1%5D.png)
+![选择要安装的设备](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_196601_xLc6Tuh_mk98EFyD_1627539300%5B1%5D.png)
 
 6.2  点击运行 ▸
 
@@ -170,45 +170,45 @@ android.injected.testOnly=false
 
 在 Android Studio 中打开项目，按照下列步骤进行操作
 
-![Build](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_346912_e9EAtUZrdWsyQlIF_1627607335%5B1%5D.png)
+![Build](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_346912_e9EAtUZrdWsyQlIF_1627607335%5B1%5D.png)
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_566472_KhM0gPwqdDfcQAB0_1627607326%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_566472_KhM0gPwqdDfcQAB0_1627607326%5B1%5D.png)
 
 如果之前有编译成 APK 的话，就直接选择 Choose existing key
 
 如果没有编译成 APK 的， 那就选择 Create new key
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_587951_Ao_6V_E7lt3yd6gS_1627607388%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_587951_Ao_6V_E7lt3yd6gS_1627607388%5B1%5D.png)
 
 选择新的 key 的存放路径，点击 OK 继续
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_547362_WdAqEfn26napiJ4N_1627607433%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_547362_WdAqEfn26napiJ4N_1627607433%5B1%5D.png)
 
 填上密码，其中 First and Last Name 填一下，其他的可不填。
 
 点击 OK 继续下一步
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_638872_JyoBXkT3kLhkbOR9_1627607502%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_638872_JyoBXkT3kLhkbOR9_1627607502%5B1%5D.png)
 
 
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_98758__1Z0mbDbmQEenRk9_1627607533%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_98758__1Z0mbDbmQEenRk9_1627607533%5B1%5D.png)
 
 点击 Next 继续下一步（**这一步不能够记住密码，否则可能会导致之后 build 报错**）
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_545387_QjaM9mwnLTJ5UN5l_1627607595%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_545387_QjaM9mwnLTJ5UN5l_1627607595%5B1%5D.png)
 
 点击 Finish，最终生成的 APK 文件就在下图所示的路径中
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_70311_7HoTSeRj7AW_clU6_1627607627%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_70311_7HoTSeRj7AW_clU6_1627607627%5B1%5D.png)
 
 打包成功！！！
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_515088_wTW1pYLYzTnXpBlA_1627607683%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_515088_wTW1pYLYzTnXpBlA_1627607683%5B1%5D.png)
 
 
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_324088_BVj9ozYSZCFBQLDH_1627607700%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_324088_BVj9ozYSZCFBQLDH_1627607700%5B1%5D.png)
 
 **注意：再次打包时需要将之前打包生成的 release 或 debug 文件夹删除，才能看到效果**
 

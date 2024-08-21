@@ -20,7 +20,7 @@ npx react-native init com.xxxxxxx.xxxxxx
 
 <!--more-->
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404000134778.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16404000134778.png)
 
 改变策略，先尝试集成极光推送插件，若无法集成，再尝试参照下述博文更改 AppId (包名) 
 
@@ -48,7 +48,7 @@ npx react-native link jpush-react-native
 npx react-native link jcore-react-native
 ```
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_452879_rH1NM0QDI1FqXWGn_1634197484%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_452879_rH1NM0QDI1FqXWGn_1634197484%5B1%5D.png)
 
 
 
@@ -95,7 +95,7 @@ project(':jcore-react-native').projectDir = new File(rootProject.projectDir, '..
 
 如下图所示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_316510_R6AQ6rbQmHQGM0qz_1634197677%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_316510_R6AQ6rbQmHQGM0qz_1634197677%5B1%5D.png)
 
 （3）在 `AndroidManifest.xml` 文件中添加以下内容：
 
@@ -110,7 +110,7 @@ project(':jcore-react-native').projectDir = new File(rootProject.projectDir, '..
 
 如下图所示
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_133500_EG2m6q7miqJ21hom_1634197828%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_133500_EG2m6q7miqJ21hom_1634197828%5B1%5D.png)
 
 （4） 修改 `MainApplication.java` 文件
 
@@ -172,19 +172,19 @@ cd android
 
 安装到手机上时报运行异常错误
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_123527_SeFi7D-gFJ9MVjqy_1634198025%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_123527_SeFi7D-gFJ9MVjqy_1634198025%5B1%5D.jpg" style="zoom:25%;" />
 
 调试一下查看错误原因。
 
 报错提示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_192188_o42Q0YMJf8drTYx6_1634198048%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_192188_o42Q0YMJf8drTYx6_1634198048%5B1%5D.png)
 
 这个之前遇见过，是因为将 applicationId 设置为了 "com.xxxxxxx.xxxxxx"，先改回来看一看有没有其他的报错。
 
 报错提示：
 
-![](https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_607937_FuGfkgdloLN258WF_1634198073%5B1%5D.png)
+![](https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_607937_FuGfkgdloLN258WF_1634198073%5B1%5D.png)
 
 `TypeError: _jpushReactNative.default.addCustomMessagegListener is not a function.`
 
@@ -198,7 +198,7 @@ cd android
 
 点击 setAlias 按钮，给该 App 设置别名
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_844182_DwSpK58Pa9IdhL7__1634198112%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_844182_DwSpK58Pa9IdhL7__1634198112%5B1%5D.jpg" style="zoom:25%;" />
 
 
 
@@ -212,6 +212,6 @@ cd android
 
 > 注意：**一定要打开手机的通知权限！**
 
-<img src="https://gitee.com/admvli2016/pictures/raw/master/img/MTY4ODg1MDk0ODIwNzAwOA_207992_qafwlxJcsK6ijFAp_1634198193%5B1%5D.jpg" style="zoom:25%;" />
+<img src="https://admvli2016.oss-cn-shenzhen.aliyuncs.com/img/MTY4ODg1MDk0ODIwNzAwOA_207992_qafwlxJcsK6ijFAp_1634198193%5B1%5D.jpg" style="zoom:25%;" />
 
 极光推送集成成功!!!
